@@ -61,7 +61,7 @@ namespace Woodpecker
             tabControl1.SelectTab(0);
         }
 
-        private void agregarPedido_btn_Click(object sender, EventArgs e)
+        private void agregarPedido_btn_Click_1(object sender, EventArgs e)
         {
             tab_pedidos.SelectTab(0);
         }
@@ -80,6 +80,5 @@ namespace Woodpecker
         {
             tab_pedidos.SelectTab(2);
         }
-
     }
 }
