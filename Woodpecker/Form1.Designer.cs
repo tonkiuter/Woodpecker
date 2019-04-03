@@ -60,27 +60,10 @@
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.button2 = new System.Windows.Forms.Button();
-            this.tabPage7 = new System.Windows.Forms.TabPage();
-            this.tabPage8 = new System.Windows.Forms.TabPage();
-            this.mostrarPedido_Btn = new System.Windows.Forms.Button();
-            this.eliminarPedido_Btn = new System.Windows.Forms.Button();
-            this.modificarPedido_Btn = new System.Windows.Forms.Button();
-            this.agregarPedido_btn = new System.Windows.Forms.Button();
-            this.agenda_tab = new System.Windows.Forms.TabPage();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
-            this.richTextBox3 = new System.Windows.Forms.RichTextBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.richTextBox4 = new System.Windows.Forms.RichTextBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.richTextBox5 = new System.Windows.Forms.RichTextBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
+            this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker4 = new System.Windows.Forms.DateTimePicker();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.textBox9 = new System.Windows.Forms.TextBox();
@@ -93,6 +76,12 @@
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
+            this.richTextBox3 = new System.Windows.Forms.RichTextBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.textBox21 = new System.Windows.Forms.TextBox();
+            this.textBox20 = new System.Windows.Forms.TextBox();
             this.textBox13 = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
             this.textBox14 = new System.Windows.Forms.TextBox();
@@ -107,13 +96,24 @@
             this.label22 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
+            this.richTextBox4 = new System.Windows.Forms.RichTextBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.tabPage8 = new System.Windows.Forms.TabPage();
+            this.button4 = new System.Windows.Forms.Button();
             this.textBox19 = new System.Windows.Forms.TextBox();
             this.label25 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
-            this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker4 = new System.Windows.Forms.DateTimePicker();
-            this.textBox20 = new System.Windows.Forms.TextBox();
-            this.textBox21 = new System.Windows.Forms.TextBox();
+            this.richTextBox5 = new System.Windows.Forms.RichTextBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.mostrarPedido_Btn = new System.Windows.Forms.Button();
+            this.eliminarPedido_Btn = new System.Windows.Forms.Button();
+            this.modificarPedido_Btn = new System.Windows.Forms.Button();
+            this.agenda_tab = new System.Windows.Forms.TabPage();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.agregarPedido_btn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.tabControl1.SuspendLayout();
@@ -125,10 +125,10 @@
             this.tab_agregar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.tabPage2.SuspendLayout();
-            this.tabPage7.SuspendLayout();
-            this.tabPage8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            this.tabPage7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            this.tabPage8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.SuspendLayout();
             // 
@@ -161,6 +161,7 @@
             this.tabControl1.Controls.Add(this.tabPage4);
             this.tabControl1.Controls.Add(this.tabPage5);
             this.tabControl1.Controls.Add(this.tabPage6);
+            this.tabControl1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.tabControl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabControl1.ImageList = this.imageList1;
             this.tabControl1.Location = new System.Drawing.Point(26, 0);
@@ -212,12 +213,12 @@
             // 
             this.pedido_tab.BackColor = System.Drawing.Color.White;
             this.pedido_tab.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pedido_tab.Controls.Add(this.agregarPedido_btn);
             this.pedido_tab.Controls.Add(this.pictureBox1);
             this.pedido_tab.Controls.Add(this.tab_pedidos);
             this.pedido_tab.Controls.Add(this.mostrarPedido_Btn);
             this.pedido_tab.Controls.Add(this.eliminarPedido_Btn);
             this.pedido_tab.Controls.Add(this.modificarPedido_Btn);
-            this.pedido_tab.Controls.Add(this.agregarPedido_btn);
             this.pedido_tab.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pedido_tab.ImageIndex = 1;
             this.pedido_tab.Location = new System.Drawing.Point(4, 79);
@@ -432,7 +433,7 @@
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(767, 72);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(170, 41);
@@ -471,242 +472,6 @@
             this.tabPage2.Text = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // button2
-            // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(760, 72);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(190, 41);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Modificar Pedido";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // tabPage7
-            // 
-            this.tabPage7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.tabPage7.Controls.Add(this.textBox21);
-            this.tabPage7.Controls.Add(this.textBox20);
-            this.tabPage7.Controls.Add(this.textBox13);
-            this.tabPage7.Controls.Add(this.label17);
-            this.tabPage7.Controls.Add(this.textBox14);
-            this.tabPage7.Controls.Add(this.label18);
-            this.tabPage7.Controls.Add(this.textBox15);
-            this.tabPage7.Controls.Add(this.textBox16);
-            this.tabPage7.Controls.Add(this.textBox17);
-            this.tabPage7.Controls.Add(this.textBox18);
-            this.tabPage7.Controls.Add(this.label19);
-            this.tabPage7.Controls.Add(this.label20);
-            this.tabPage7.Controls.Add(this.label21);
-            this.tabPage7.Controls.Add(this.label22);
-            this.tabPage7.Controls.Add(this.label23);
-            this.tabPage7.Controls.Add(this.label24);
-            this.tabPage7.Controls.Add(this.richTextBox4);
-            this.tabPage7.Controls.Add(this.pictureBox7);
-            this.tabPage7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabPage7.Location = new System.Drawing.Point(4, 40);
-            this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(955, 417);
-            this.tabPage7.TabIndex = 2;
-            this.tabPage7.Text = "tabPage7";
-            this.tabPage7.UseVisualStyleBackColor = true;
-            // 
-            // tabPage8
-            // 
-            this.tabPage8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.tabPage8.Controls.Add(this.button4);
-            this.tabPage8.Controls.Add(this.textBox19);
-            this.tabPage8.Controls.Add(this.label25);
-            this.tabPage8.Controls.Add(this.richTextBox5);
-            this.tabPage8.Controls.Add(this.pictureBox8);
-            this.tabPage8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabPage8.Location = new System.Drawing.Point(4, 40);
-            this.tabPage8.Name = "tabPage8";
-            this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage8.Size = new System.Drawing.Size(955, 417);
-            this.tabPage8.TabIndex = 3;
-            this.tabPage8.Text = "tabPage8";
-            this.tabPage8.UseVisualStyleBackColor = true;
-            // 
-            // mostrarPedido_Btn
-            // 
-            this.mostrarPedido_Btn.Location = new System.Drawing.Point(19, 261);
-            this.mostrarPedido_Btn.Name = "mostrarPedido_Btn";
-            this.mostrarPedido_Btn.Size = new System.Drawing.Size(157, 80);
-            this.mostrarPedido_Btn.TabIndex = 3;
-            this.mostrarPedido_Btn.Text = "Consultar";
-            this.mostrarPedido_Btn.UseVisualStyleBackColor = true;
-            this.mostrarPedido_Btn.Click += new System.EventHandler(this.mostrarPedido_Btn_Click);
-            // 
-            // eliminarPedido_Btn
-            // 
-            this.eliminarPedido_Btn.Location = new System.Drawing.Point(19, 364);
-            this.eliminarPedido_Btn.Name = "eliminarPedido_Btn";
-            this.eliminarPedido_Btn.Size = new System.Drawing.Size(157, 80);
-            this.eliminarPedido_Btn.TabIndex = 2;
-            this.eliminarPedido_Btn.Text = "Facturar";
-            this.eliminarPedido_Btn.UseVisualStyleBackColor = true;
-            this.eliminarPedido_Btn.Click += new System.EventHandler(this.eliminarPedido_Btn_Click);
-            // 
-            // modificarPedido_Btn
-            // 
-            this.modificarPedido_Btn.Location = new System.Drawing.Point(19, 157);
-            this.modificarPedido_Btn.Name = "modificarPedido_Btn";
-            this.modificarPedido_Btn.Size = new System.Drawing.Size(157, 80);
-            this.modificarPedido_Btn.TabIndex = 1;
-            this.modificarPedido_Btn.Text = "Modificar";
-            this.modificarPedido_Btn.UseVisualStyleBackColor = true;
-            this.modificarPedido_Btn.Click += new System.EventHandler(this.modificarPedido_Btn_Click);
-            // 
-            // agregarPedido_btn
-            // 
-            this.agregarPedido_btn.Location = new System.Drawing.Point(19, 52);
-            this.agregarPedido_btn.Name = "agregarPedido_btn";
-            this.agregarPedido_btn.Size = new System.Drawing.Size(157, 80);
-            this.agregarPedido_btn.TabIndex = 0;
-            this.agregarPedido_btn.Text = "Nuevo";
-            this.agregarPedido_btn.UseVisualStyleBackColor = true;
-            this.agregarPedido_btn.Click += new System.EventHandler(this.agregarPedido_btn_Click);
-            // 
-            // agenda_tab
-            // 
-            this.agenda_tab.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.agenda_tab.ImageIndex = 2;
-            this.agenda_tab.Location = new System.Drawing.Point(4, 79);
-            this.agenda_tab.Name = "agenda_tab";
-            this.agenda_tab.Padding = new System.Windows.Forms.Padding(3);
-            this.agenda_tab.Size = new System.Drawing.Size(1155, 472);
-            this.agenda_tab.TabIndex = 1;
-            this.agenda_tab.Text = "Agenda";
-            this.agenda_tab.UseVisualStyleBackColor = true;
-            // 
-            // tabPage3
-            // 
-            this.tabPage3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.tabPage3.ImageIndex = 3;
-            this.tabPage3.Location = new System.Drawing.Point(4, 79);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(1155, 472);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Clientes";
-            this.tabPage3.UseVisualStyleBackColor = true;
-            // 
-            // tabPage4
-            // 
-            this.tabPage4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.tabPage4.ImageIndex = 4;
-            this.tabPage4.Location = new System.Drawing.Point(4, 79);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(1155, 472);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "Directorio";
-            this.tabPage4.UseVisualStyleBackColor = true;
-            // 
-            // tabPage5
-            // 
-            this.tabPage5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.tabPage5.ImageIndex = 5;
-            this.tabPage5.Location = new System.Drawing.Point(4, 79);
-            this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(1155, 472);
-            this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "Inventario";
-            this.tabPage5.UseVisualStyleBackColor = true;
-            // 
-            // tabPage6
-            // 
-            this.tabPage6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.tabPage6.Font = new System.Drawing.Font("Montserrat", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabPage6.ImageIndex = 6;
-            this.tabPage6.Location = new System.Drawing.Point(4, 79);
-            this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(1155, 472);
-            this.tabPage6.TabIndex = 5;
-            this.tabPage6.Text = "Compras";
-            this.tabPage6.UseVisualStyleBackColor = true;
-            // 
-            // imageList1
-            // 
-            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
-            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList1.Images.SetKeyName(0, "home.png");
-            this.imageList1.Images.SetKeyName(1, "pedido.png");
-            this.imageList1.Images.SetKeyName(2, "agenda.png");
-            this.imageList1.Images.SetKeyName(3, "clientes.png");
-            this.imageList1.Images.SetKeyName(4, "proveedores.png");
-            this.imageList1.Images.SetKeyName(5, "inventario.png");
-            this.imageList1.Images.SetKeyName(6, "compras.png");
-            // 
-            // richTextBox3
-            // 
-            this.richTextBox3.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.richTextBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox3.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox3.Location = new System.Drawing.Point(272, 8);
-            this.richTextBox3.Name = "richTextBox3";
-            this.richTextBox3.Size = new System.Drawing.Size(489, 79);
-            this.richTextBox3.TabIndex = 16;
-            this.richTextBox3.Text = resources.GetString("richTextBox3.Text");
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(172, 4);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(87, 80);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox6.TabIndex = 15;
-            this.pictureBox6.TabStop = false;
-            // 
-            // richTextBox4
-            // 
-            this.richTextBox4.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.richTextBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox4.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox4.Location = new System.Drawing.Point(272, 8);
-            this.richTextBox4.Name = "richTextBox4";
-            this.richTextBox4.Size = new System.Drawing.Size(489, 79);
-            this.richTextBox4.TabIndex = 18;
-            this.richTextBox4.Text = resources.GetString("richTextBox4.Text");
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(172, 4);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(87, 80);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 17;
-            this.pictureBox7.TabStop = false;
-            // 
-            // richTextBox5
-            // 
-            this.richTextBox5.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.richTextBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox5.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox5.Location = new System.Drawing.Point(272, 8);
-            this.richTextBox5.Name = "richTextBox5";
-            this.richTextBox5.Size = new System.Drawing.Size(489, 79);
-            this.richTextBox5.TabIndex = 18;
-            this.richTextBox5.Text = resources.GetString("richTextBox5.Text");
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(172, 4);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(87, 80);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox8.TabIndex = 17;
-            this.pictureBox8.TabStop = false;
-            // 
             // textBox7
             // 
             this.textBox7.Location = new System.Drawing.Point(173, 121);
@@ -722,6 +487,20 @@
             this.label9.Size = new System.Drawing.Size(66, 20);
             this.label9.TabIndex = 35;
             this.label9.Text = "Pedido: ";
+            // 
+            // dateTimePicker3
+            // 
+            this.dateTimePicker3.Location = new System.Drawing.Point(469, 311);
+            this.dateTimePicker3.Name = "dateTimePicker3";
+            this.dateTimePicker3.Size = new System.Drawing.Size(259, 26);
+            this.dateTimePicker3.TabIndex = 34;
+            // 
+            // dateTimePicker4
+            // 
+            this.dateTimePicker4.Location = new System.Drawing.Point(76, 314);
+            this.dateTimePicker4.Name = "dateTimePicker4";
+            this.dateTimePicker4.Size = new System.Drawing.Size(268, 26);
+            this.dateTimePicker4.TabIndex = 33;
             // 
             // textBox8
             // 
@@ -820,6 +599,82 @@
             this.label16.Size = new System.Drawing.Size(66, 20);
             this.label16.TabIndex = 21;
             this.label16.Text = "Cliente: ";
+            // 
+            // richTextBox3
+            // 
+            this.richTextBox3.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.richTextBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox3.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox3.Location = new System.Drawing.Point(272, 8);
+            this.richTextBox3.Name = "richTextBox3";
+            this.richTextBox3.Size = new System.Drawing.Size(489, 79);
+            this.richTextBox3.TabIndex = 16;
+            this.richTextBox3.Text = resources.GetString("richTextBox3.Text");
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.Location = new System.Drawing.Point(172, 4);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(87, 80);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 15;
+            this.pictureBox6.TabStop = false;
+            // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(760, 72);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(190, 41);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "Modificar Pedido";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // tabPage7
+            // 
+            this.tabPage7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.tabPage7.Controls.Add(this.textBox21);
+            this.tabPage7.Controls.Add(this.textBox20);
+            this.tabPage7.Controls.Add(this.textBox13);
+            this.tabPage7.Controls.Add(this.label17);
+            this.tabPage7.Controls.Add(this.textBox14);
+            this.tabPage7.Controls.Add(this.label18);
+            this.tabPage7.Controls.Add(this.textBox15);
+            this.tabPage7.Controls.Add(this.textBox16);
+            this.tabPage7.Controls.Add(this.textBox17);
+            this.tabPage7.Controls.Add(this.textBox18);
+            this.tabPage7.Controls.Add(this.label19);
+            this.tabPage7.Controls.Add(this.label20);
+            this.tabPage7.Controls.Add(this.label21);
+            this.tabPage7.Controls.Add(this.label22);
+            this.tabPage7.Controls.Add(this.label23);
+            this.tabPage7.Controls.Add(this.label24);
+            this.tabPage7.Controls.Add(this.richTextBox4);
+            this.tabPage7.Controls.Add(this.pictureBox7);
+            this.tabPage7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabPage7.Location = new System.Drawing.Point(4, 40);
+            this.tabPage7.Name = "tabPage7";
+            this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage7.Size = new System.Drawing.Size(955, 417);
+            this.tabPage7.TabIndex = 2;
+            this.tabPage7.Text = "tabPage7";
+            this.tabPage7.UseVisualStyleBackColor = true;
+            // 
+            // textBox21
+            // 
+            this.textBox21.Location = new System.Drawing.Point(77, 313);
+            this.textBox21.Name = "textBox21";
+            this.textBox21.Size = new System.Drawing.Size(264, 26);
+            this.textBox21.TabIndex = 54;
+            // 
+            // textBox20
+            // 
+            this.textBox20.Location = new System.Drawing.Point(462, 311);
+            this.textBox20.Name = "textBox20";
+            this.textBox20.Size = new System.Drawing.Size(264, 26);
+            this.textBox20.TabIndex = 53;
             // 
             // textBox13
             // 
@@ -935,6 +790,54 @@
             this.label24.TabIndex = 37;
             this.label24.Text = "Cliente: ";
             // 
+            // richTextBox4
+            // 
+            this.richTextBox4.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.richTextBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox4.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox4.Location = new System.Drawing.Point(272, 8);
+            this.richTextBox4.Name = "richTextBox4";
+            this.richTextBox4.Size = new System.Drawing.Size(489, 79);
+            this.richTextBox4.TabIndex = 18;
+            this.richTextBox4.Text = resources.GetString("richTextBox4.Text");
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
+            this.pictureBox7.Location = new System.Drawing.Point(172, 4);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(87, 80);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox7.TabIndex = 17;
+            this.pictureBox7.TabStop = false;
+            // 
+            // tabPage8
+            // 
+            this.tabPage8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.tabPage8.Controls.Add(this.button4);
+            this.tabPage8.Controls.Add(this.textBox19);
+            this.tabPage8.Controls.Add(this.label25);
+            this.tabPage8.Controls.Add(this.richTextBox5);
+            this.tabPage8.Controls.Add(this.pictureBox8);
+            this.tabPage8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabPage8.Location = new System.Drawing.Point(4, 40);
+            this.tabPage8.Name = "tabPage8";
+            this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage8.Size = new System.Drawing.Size(955, 417);
+            this.tabPage8.TabIndex = 3;
+            this.tabPage8.Text = "tabPage8";
+            this.tabPage8.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(452, 192);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(193, 28);
+            this.button4.TabIndex = 53;
+            this.button4.Text = "Generar Factura";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
             // textBox19
             // 
             this.textBox19.Location = new System.Drawing.Point(272, 194);
@@ -951,42 +854,143 @@
             this.label25.TabIndex = 51;
             this.label25.Text = "Pedido: ";
             // 
-            // button4
+            // richTextBox5
             // 
-            this.button4.Location = new System.Drawing.Point(452, 192);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(193, 28);
-            this.button4.TabIndex = 53;
-            this.button4.Text = "Generar Factura";
-            this.button4.UseVisualStyleBackColor = true;
+            this.richTextBox5.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.richTextBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox5.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox5.Location = new System.Drawing.Point(272, 8);
+            this.richTextBox5.Name = "richTextBox5";
+            this.richTextBox5.Size = new System.Drawing.Size(489, 79);
+            this.richTextBox5.TabIndex = 18;
+            this.richTextBox5.Text = resources.GetString("richTextBox5.Text");
             // 
-            // dateTimePicker3
+            // pictureBox8
             // 
-            this.dateTimePicker3.Location = new System.Drawing.Point(469, 311);
-            this.dateTimePicker3.Name = "dateTimePicker3";
-            this.dateTimePicker3.Size = new System.Drawing.Size(259, 26);
-            this.dateTimePicker3.TabIndex = 34;
+            this.pictureBox8.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
+            this.pictureBox8.Location = new System.Drawing.Point(172, 4);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(87, 80);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox8.TabIndex = 17;
+            this.pictureBox8.TabStop = false;
             // 
-            // dateTimePicker4
+            // mostrarPedido_Btn
             // 
-            this.dateTimePicker4.Location = new System.Drawing.Point(76, 314);
-            this.dateTimePicker4.Name = "dateTimePicker4";
-            this.dateTimePicker4.Size = new System.Drawing.Size(268, 26);
-            this.dateTimePicker4.TabIndex = 33;
+            this.mostrarPedido_Btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mostrarPedido_Btn.Location = new System.Drawing.Point(19, 261);
+            this.mostrarPedido_Btn.Name = "mostrarPedido_Btn";
+            this.mostrarPedido_Btn.Size = new System.Drawing.Size(157, 80);
+            this.mostrarPedido_Btn.TabIndex = 3;
+            this.mostrarPedido_Btn.Text = "Consultar";
+            this.mostrarPedido_Btn.UseVisualStyleBackColor = true;
+            this.mostrarPedido_Btn.Click += new System.EventHandler(this.mostrarPedido_Btn_Click);
             // 
-            // textBox20
+            // eliminarPedido_Btn
             // 
-            this.textBox20.Location = new System.Drawing.Point(462, 311);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(264, 26);
-            this.textBox20.TabIndex = 53;
+            this.eliminarPedido_Btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.eliminarPedido_Btn.Location = new System.Drawing.Point(19, 364);
+            this.eliminarPedido_Btn.Name = "eliminarPedido_Btn";
+            this.eliminarPedido_Btn.Size = new System.Drawing.Size(157, 80);
+            this.eliminarPedido_Btn.TabIndex = 2;
+            this.eliminarPedido_Btn.Text = "Facturar";
+            this.eliminarPedido_Btn.UseVisualStyleBackColor = true;
+            this.eliminarPedido_Btn.Click += new System.EventHandler(this.eliminarPedido_Btn_Click);
             // 
-            // textBox21
+            // modificarPedido_Btn
             // 
-            this.textBox21.Location = new System.Drawing.Point(77, 313);
-            this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(264, 26);
-            this.textBox21.TabIndex = 54;
+            this.modificarPedido_Btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.modificarPedido_Btn.Location = new System.Drawing.Point(19, 157);
+            this.modificarPedido_Btn.Name = "modificarPedido_Btn";
+            this.modificarPedido_Btn.Size = new System.Drawing.Size(157, 80);
+            this.modificarPedido_Btn.TabIndex = 1;
+            this.modificarPedido_Btn.Text = "Modificar";
+            this.modificarPedido_Btn.UseVisualStyleBackColor = true;
+            this.modificarPedido_Btn.Click += new System.EventHandler(this.modificarPedido_Btn_Click);
+            // 
+            // agenda_tab
+            // 
+            this.agenda_tab.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.agenda_tab.ImageIndex = 2;
+            this.agenda_tab.Location = new System.Drawing.Point(4, 79);
+            this.agenda_tab.Name = "agenda_tab";
+            this.agenda_tab.Padding = new System.Windows.Forms.Padding(3);
+            this.agenda_tab.Size = new System.Drawing.Size(1155, 472);
+            this.agenda_tab.TabIndex = 1;
+            this.agenda_tab.Text = "Agenda";
+            this.agenda_tab.UseVisualStyleBackColor = true;
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.tabPage3.ImageIndex = 3;
+            this.tabPage3.Location = new System.Drawing.Point(4, 79);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(1155, 472);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "Clientes";
+            this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // tabPage4
+            // 
+            this.tabPage4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.tabPage4.ImageIndex = 4;
+            this.tabPage4.Location = new System.Drawing.Point(4, 79);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage4.Size = new System.Drawing.Size(1155, 472);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "Directorio";
+            this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // tabPage5
+            // 
+            this.tabPage5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.tabPage5.ImageIndex = 5;
+            this.tabPage5.Location = new System.Drawing.Point(4, 79);
+            this.tabPage5.Name = "tabPage5";
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage5.Size = new System.Drawing.Size(1155, 472);
+            this.tabPage5.TabIndex = 4;
+            this.tabPage5.Text = "Inventario";
+            this.tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // tabPage6
+            // 
+            this.tabPage6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.tabPage6.Font = new System.Drawing.Font("Montserrat", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabPage6.ImageIndex = 6;
+            this.tabPage6.Location = new System.Drawing.Point(4, 79);
+            this.tabPage6.Name = "tabPage6";
+            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage6.Size = new System.Drawing.Size(1155, 472);
+            this.tabPage6.TabIndex = 5;
+            this.tabPage6.Text = "Compras";
+            this.tabPage6.UseVisualStyleBackColor = true;
+            // 
+            // imageList1
+            // 
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "home.png");
+            this.imageList1.Images.SetKeyName(1, "pedido.png");
+            this.imageList1.Images.SetKeyName(2, "agenda.png");
+            this.imageList1.Images.SetKeyName(3, "clientes.png");
+            this.imageList1.Images.SetKeyName(4, "proveedores.png");
+            this.imageList1.Images.SetKeyName(5, "inventario.png");
+            this.imageList1.Images.SetKeyName(6, "compras.png");
+            // 
+            // agregarPedido_btn
+            // 
+            this.agregarPedido_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.agregarPedido_btn.Location = new System.Drawing.Point(19, 60);
+            this.agregarPedido_btn.Name = "agregarPedido_btn";
+            this.agregarPedido_btn.Size = new System.Drawing.Size(157, 80);
+            this.agregarPedido_btn.TabIndex = 6;
+            this.agregarPedido_btn.Text = "Nuevo";
+            this.agregarPedido_btn.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -1015,12 +1019,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.tabPage7.ResumeLayout(false);
             this.tabPage7.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.tabPage8.ResumeLayout(false);
             this.tabPage8.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.ResumeLayout(false);
 
@@ -1049,7 +1053,6 @@
         private System.Windows.Forms.Button mostrarPedido_Btn;
         private System.Windows.Forms.Button eliminarPedido_Btn;
         private System.Windows.Forms.Button modificarPedido_Btn;
-        private System.Windows.Forms.Button agregarPedido_btn;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.PictureBox pictureBox5;
@@ -1111,6 +1114,7 @@
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.RichTextBox richTextBox5;
         private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.Button agregarPedido_btn;
     }
 }
 

@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
+using System.Drawing.Drawing2D;
 
 namespace Woodpecker
 {
@@ -17,7 +18,6 @@ namespace Woodpecker
         {
             InitializeComponent();
         }
-
         MySqlConnection Conectar()
         {
             MySqlConnection conexion = new MySqlConnection();

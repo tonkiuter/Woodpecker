@@ -1,6 +1,9 @@
 C:\Users\User\Desktop\Carpintería\Woodpecker\Woodpecker\bin\Debug\Woodpecker.exe.config
 C:\Users\User\Desktop\Carpintería\Woodpecker\Woodpecker\bin\Debug\Woodpecker.exe
 C:\Users\User\Desktop\Carpintería\Woodpecker\Woodpecker\bin\Debug\Woodpecker.pdb
+C:\Users\User\Desktop\Carpintería\Woodpecker\Woodpecker\bin\Debug\MySql.Data.dll
+C:\Users\User\Desktop\Carpintería\Woodpecker\Woodpecker\bin\Debug\Google.Protobuf.dll
+C:\Users\User\Desktop\Carpintería\Woodpecker\Woodpecker\bin\Debug\MySql.Data.xml
 C:\Users\User\Desktop\Carpintería\Woodpecker\Woodpecker\obj\Debug\Woodpecker.csprojResolveAssemblyReference.cache
 C:\Users\User\Desktop\Carpintería\Woodpecker\Woodpecker\obj\Debug\Woodpecker.Form1.resources
 C:\Users\User\Desktop\Carpintería\Woodpecker\Woodpecker\obj\Debug\Woodpecker.Properties.Resources.resources
@@ -8,6 +11,3 @@ C:\Users\User\Desktop\Carpintería\Woodpecker\Woodpecker\obj\Debug\Woodpecker.cs
 C:\Users\User\Desktop\Carpintería\Woodpecker\Woodpecker\obj\Debug\Woodpecker.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\Carpintería\Woodpecker\Woodpecker\obj\Debug\Woodpecker.exe
 C:\Users\User\Desktop\Carpintería\Woodpecker\Woodpecker\obj\Debug\Woodpecker.pdb
-C:\Users\User\Desktop\Carpintería\Woodpecker\Woodpecker\bin\Debug\MySql.Data.dll
-C:\Users\User\Desktop\Carpintería\Woodpecker\Woodpecker\bin\Debug\Google.Protobuf.dll
-C:\Users\User\Desktop\Carpintería\Woodpecker\Woodpecker\bin\Debug\MySql.Data.xml
