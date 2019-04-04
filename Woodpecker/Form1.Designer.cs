@@ -41,6 +41,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tab_pedidos = new System.Windows.Forms.TabControl();
             this.tab_agregar = new System.Windows.Forms.TabPage();
+            this.comboBox_productos = new System.Windows.Forms.ComboBox();
             this.textBox_idPedido = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.fechaEntrega = new System.Windows.Forms.DateTimePicker();
@@ -48,7 +49,6 @@
             this.textBox_precio = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.richTextBox2 = new System.Windows.Forms.RichTextBox();
-            this.textBox_producto = new System.Windows.Forms.TextBox();
             this.textBox_cantidad = new System.Windows.Forms.TextBox();
             this.textBox_total = new System.Windows.Forms.TextBox();
             this.textBox_cliente = new System.Windows.Forms.TextBox();
@@ -333,7 +333,7 @@
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox1.Location = new System.Drawing.Point(19, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(157, 37);
+            this.pictureBox1.Size = new System.Drawing.Size(1131, 37);
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             // 
@@ -352,6 +352,7 @@
             // tab_agregar
             // 
             this.tab_agregar.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.tab_agregar.Controls.Add(this.comboBox_productos);
             this.tab_agregar.Controls.Add(this.textBox_idPedido);
             this.tab_agregar.Controls.Add(this.label8);
             this.tab_agregar.Controls.Add(this.fechaEntrega);
@@ -359,7 +360,6 @@
             this.tab_agregar.Controls.Add(this.textBox_precio);
             this.tab_agregar.Controls.Add(this.label7);
             this.tab_agregar.Controls.Add(this.richTextBox2);
-            this.tab_agregar.Controls.Add(this.textBox_producto);
             this.tab_agregar.Controls.Add(this.textBox_cantidad);
             this.tab_agregar.Controls.Add(this.textBox_total);
             this.tab_agregar.Controls.Add(this.textBox_cliente);
@@ -379,6 +379,15 @@
             this.tab_agregar.TabIndex = 0;
             this.tab_agregar.Text = "tabPage1";
             this.tab_agregar.UseVisualStyleBackColor = true;
+            // 
+            // comboBox_productos
+            // 
+            this.comboBox_productos.FormattingEnabled = true;
+            this.comboBox_productos.Location = new System.Drawing.Point(173, 206);
+            this.comboBox_productos.Name = "comboBox_productos";
+            this.comboBox_productos.Size = new System.Drawing.Size(265, 28);
+            this.comboBox_productos.TabIndex = 21;
+            this.comboBox_productos.SelectedIndexChanged += new System.EventHandler(this.comboBox_productos_SelectedIndexChanged);
             // 
             // textBox_idPedido
             // 
@@ -437,19 +446,13 @@
             this.richTextBox2.TabIndex = 14;
             this.richTextBox2.Text = resources.GetString("richTextBox2.Text");
             // 
-            // textBox_producto
-            // 
-            this.textBox_producto.Location = new System.Drawing.Point(173, 206);
-            this.textBox_producto.Name = "textBox_producto";
-            this.textBox_producto.Size = new System.Drawing.Size(264, 26);
-            this.textBox_producto.TabIndex = 13;
-            // 
             // textBox_cantidad
             // 
             this.textBox_cantidad.Location = new System.Drawing.Point(173, 247);
             this.textBox_cantidad.Name = "textBox_cantidad";
             this.textBox_cantidad.Size = new System.Drawing.Size(264, 26);
             this.textBox_cantidad.TabIndex = 12;
+            this.textBox_cantidad.TextChanged += new System.EventHandler(this.textBox_cantidad_TextChanged);
             // 
             // textBox_total
             // 
@@ -1869,7 +1872,6 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.RichTextBox richTextBox2;
-        private System.Windows.Forms.TextBox textBox_producto;
         private System.Windows.Forms.TextBox textBox_cantidad;
         private System.Windows.Forms.TextBox textBox_total;
         private System.Windows.Forms.TextBox textBox_cliente;
@@ -1994,6 +1996,7 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.ComboBox comboBox_productos;
     }
 }
 
