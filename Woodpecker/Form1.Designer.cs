@@ -41,17 +41,17 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tab_pedidos = new System.Windows.Forms.TabControl();
             this.tab_agregar = new System.Windows.Forms.TabPage();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox_idPedido = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.fechaEntrega = new System.Windows.Forms.DateTimePicker();
+            this.fechaPedido = new System.Windows.Forms.DateTimePicker();
+            this.textBox_precio = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.richTextBox2 = new System.Windows.Forms.RichTextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox_producto = new System.Windows.Forms.TextBox();
+            this.textBox_cantidad = new System.Windows.Forms.TextBox();
+            this.textBox_total = new System.Windows.Forms.TextBox();
+            this.textBox_cliente = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -59,7 +59,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.agregarPedido = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
@@ -112,36 +112,26 @@
             this.richTextBox6 = new System.Windows.Forms.RichTextBox();
             this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.tabPage10 = new System.Windows.Forms.TabPage();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.richTextBox9 = new System.Windows.Forms.RichTextBox();
-            this.tabPage9 = new System.Windows.Forms.TabPage();
-            this.modificarCliente_Btn = new System.Windows.Forms.Button();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.richTextBox8 = new System.Windows.Forms.RichTextBox();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.agregarCliente_Btn = new System.Windows.Forms.Button();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.textBox27 = new System.Windows.Forms.TextBox();
-            this.textBox25 = new System.Windows.Forms.TextBox();
-            this.textBox24 = new System.Windows.Forms.TextBox();
-            this.richTextBox7 = new System.Windows.Forms.RichTextBox();
-            this.label26 = new System.Windows.Forms.Label();
-            this.textBox22 = new System.Windows.Forms.TextBox();
             this.tabControl2 = new System.Windows.Forms.TabControl();
-            this.label29 = new System.Windows.Forms.Label();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.textBox22 = new System.Windows.Forms.TextBox();
+            this.richTextBox7 = new System.Windows.Forms.RichTextBox();
+            this.textBox24 = new System.Windows.Forms.TextBox();
+            this.textBox25 = new System.Windows.Forms.TextBox();
+            this.textBox27 = new System.Windows.Forms.TextBox();
+            this.label26 = new System.Windows.Forms.Label();
             this.dateTimePicker6 = new System.Windows.Forms.DateTimePicker();
+            this.label29 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.agregarCliente_Btn = new System.Windows.Forms.Button();
+            this.tabPage9 = new System.Windows.Forms.TabPage();
             this.textBox23 = new System.Windows.Forms.TextBox();
             this.textBox26 = new System.Windows.Forms.TextBox();
             this.textBox28 = new System.Windows.Forms.TextBox();
@@ -152,6 +142,10 @@
             this.label30 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
             this.label35 = new System.Windows.Forms.Label();
+            this.richTextBox8 = new System.Windows.Forms.RichTextBox();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.modificarCliente_Btn = new System.Windows.Forms.Button();
+            this.tabPage10 = new System.Windows.Forms.TabPage();
             this.textBox30 = new System.Windows.Forms.TextBox();
             this.textBox31 = new System.Windows.Forms.TextBox();
             this.textBox32 = new System.Windows.Forms.TextBox();
@@ -162,11 +156,31 @@
             this.label38 = new System.Windows.Forms.Label();
             this.label39 = new System.Windows.Forms.Label();
             this.label40 = new System.Windows.Forms.Label();
-            this.Buscar = new System.Windows.Forms.Label();
-            this.textBox34 = new System.Windows.Forms.TextBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.richTextBox9 = new System.Windows.Forms.RichTextBox();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.textBox34 = new System.Windows.Forms.TextBox();
+            this.Buscar = new System.Windows.Forms.Label();
+            this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.pictureBox16 = new System.Windows.Forms.PictureBox();
+            this.tabControl_inventario = new System.Windows.Forms.TabControl();
+            this.tabPage_productos = new System.Windows.Forms.TabPage();
+            this.richTextBox10 = new System.Windows.Forms.RichTextBox();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.tabPage_materiales = new System.Windows.Forms.TabPage();
+            this.richTextBox11 = new System.Windows.Forms.RichTextBox();
+            this.pictureBox14 = new System.Windows.Forms.PictureBox();
+            this.tabPage_madera = new System.Windows.Forms.TabPage();
+            this.richTextBox12 = new System.Windows.Forms.RichTextBox();
+            this.pictureBox15 = new System.Windows.Forms.PictureBox();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.tabControl1.SuspendLayout();
@@ -185,16 +199,25 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.agenda_tab.SuspendLayout();
             this.tabPage3.SuspendLayout();
-            this.tabPage4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-            this.tabPage10.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            this.tabPage9.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            this.tabControl2.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            this.tabControl2.SuspendLayout();
+            this.tabPage9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            this.tabPage10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
+            this.tabPage4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.tabPage5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
+            this.tabControl_inventario.SuspendLayout();
+            this.tabPage_productos.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
+            this.tabPage_materiales.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
+            this.tabPage_madera.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox2
@@ -308,9 +331,9 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.SteelBlue;
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox1.Location = new System.Drawing.Point(19, 6);
+            this.pictureBox1.Location = new System.Drawing.Point(19, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(161, 37);
+            this.pictureBox1.Size = new System.Drawing.Size(157, 37);
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             // 
@@ -329,17 +352,17 @@
             // tab_agregar
             // 
             this.tab_agregar.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.tab_agregar.Controls.Add(this.textBox6);
+            this.tab_agregar.Controls.Add(this.textBox_idPedido);
             this.tab_agregar.Controls.Add(this.label8);
-            this.tab_agregar.Controls.Add(this.dateTimePicker2);
-            this.tab_agregar.Controls.Add(this.dateTimePicker1);
-            this.tab_agregar.Controls.Add(this.textBox5);
+            this.tab_agregar.Controls.Add(this.fechaEntrega);
+            this.tab_agregar.Controls.Add(this.fechaPedido);
+            this.tab_agregar.Controls.Add(this.textBox_precio);
             this.tab_agregar.Controls.Add(this.label7);
             this.tab_agregar.Controls.Add(this.richTextBox2);
-            this.tab_agregar.Controls.Add(this.textBox4);
-            this.tab_agregar.Controls.Add(this.textBox3);
-            this.tab_agregar.Controls.Add(this.textBox2);
-            this.tab_agregar.Controls.Add(this.textBox1);
+            this.tab_agregar.Controls.Add(this.textBox_producto);
+            this.tab_agregar.Controls.Add(this.textBox_cantidad);
+            this.tab_agregar.Controls.Add(this.textBox_total);
+            this.tab_agregar.Controls.Add(this.textBox_cliente);
             this.tab_agregar.Controls.Add(this.label6);
             this.tab_agregar.Controls.Add(this.label5);
             this.tab_agregar.Controls.Add(this.label4);
@@ -347,7 +370,7 @@
             this.tab_agregar.Controls.Add(this.label2);
             this.tab_agregar.Controls.Add(this.label1);
             this.tab_agregar.Controls.Add(this.pictureBox5);
-            this.tab_agregar.Controls.Add(this.button1);
+            this.tab_agregar.Controls.Add(this.agregarPedido);
             this.tab_agregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tab_agregar.Location = new System.Drawing.Point(4, 40);
             this.tab_agregar.Name = "tab_agregar";
@@ -357,12 +380,12 @@
             this.tab_agregar.Text = "tabPage1";
             this.tab_agregar.UseVisualStyleBackColor = true;
             // 
-            // textBox6
+            // textBox_idPedido
             // 
-            this.textBox6.Location = new System.Drawing.Point(173, 121);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(102, 26);
-            this.textBox6.TabIndex = 20;
+            this.textBox_idPedido.Location = new System.Drawing.Point(173, 121);
+            this.textBox_idPedido.Name = "textBox_idPedido";
+            this.textBox_idPedido.Size = new System.Drawing.Size(102, 26);
+            this.textBox_idPedido.TabIndex = 20;
             // 
             // label8
             // 
@@ -373,26 +396,26 @@
             this.label8.TabIndex = 19;
             this.label8.Text = "Pedido: ";
             // 
-            // dateTimePicker2
+            // fechaEntrega
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(469, 311);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(259, 26);
-            this.dateTimePicker2.TabIndex = 18;
+            this.fechaEntrega.Location = new System.Drawing.Point(469, 311);
+            this.fechaEntrega.Name = "fechaEntrega";
+            this.fechaEntrega.Size = new System.Drawing.Size(259, 26);
+            this.fechaEntrega.TabIndex = 18;
             // 
-            // dateTimePicker1
+            // fechaPedido
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(76, 314);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(268, 26);
-            this.dateTimePicker1.TabIndex = 17;
+            this.fechaPedido.Location = new System.Drawing.Point(76, 314);
+            this.fechaPedido.Name = "fechaPedido";
+            this.fechaPedido.Size = new System.Drawing.Size(268, 26);
+            this.fechaPedido.TabIndex = 17;
             // 
-            // textBox5
+            // textBox_precio
             // 
-            this.textBox5.Location = new System.Drawing.Point(539, 207);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(189, 26);
-            this.textBox5.TabIndex = 16;
+            this.textBox_precio.Location = new System.Drawing.Point(539, 207);
+            this.textBox_precio.Name = "textBox_precio";
+            this.textBox_precio.Size = new System.Drawing.Size(189, 26);
+            this.textBox_precio.TabIndex = 16;
             // 
             // label7
             // 
@@ -414,33 +437,33 @@
             this.richTextBox2.TabIndex = 14;
             this.richTextBox2.Text = resources.GetString("richTextBox2.Text");
             // 
-            // textBox4
+            // textBox_producto
             // 
-            this.textBox4.Location = new System.Drawing.Point(173, 206);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(264, 26);
-            this.textBox4.TabIndex = 13;
+            this.textBox_producto.Location = new System.Drawing.Point(173, 206);
+            this.textBox_producto.Name = "textBox_producto";
+            this.textBox_producto.Size = new System.Drawing.Size(264, 26);
+            this.textBox_producto.TabIndex = 13;
             // 
-            // textBox3
+            // textBox_cantidad
             // 
-            this.textBox3.Location = new System.Drawing.Point(173, 247);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(264, 26);
-            this.textBox3.TabIndex = 12;
+            this.textBox_cantidad.Location = new System.Drawing.Point(173, 247);
+            this.textBox_cantidad.Name = "textBox_cantidad";
+            this.textBox_cantidad.Size = new System.Drawing.Size(264, 26);
+            this.textBox_cantidad.TabIndex = 12;
             // 
-            // textBox2
+            // textBox_total
             // 
-            this.textBox2.Location = new System.Drawing.Point(539, 247);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(189, 26);
-            this.textBox2.TabIndex = 11;
+            this.textBox_total.Location = new System.Drawing.Point(539, 247);
+            this.textBox_total.Name = "textBox_total";
+            this.textBox_total.Size = new System.Drawing.Size(189, 26);
+            this.textBox_total.TabIndex = 11;
             // 
-            // textBox1
+            // textBox_cliente
             // 
-            this.textBox1.Location = new System.Drawing.Point(173, 166);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(555, 26);
-            this.textBox1.TabIndex = 10;
+            this.textBox_cliente.Location = new System.Drawing.Point(173, 166);
+            this.textBox_cliente.Name = "textBox_cliente";
+            this.textBox_cliente.Size = new System.Drawing.Size(555, 26);
+            this.textBox_cliente.TabIndex = 10;
             // 
             // label6
             // 
@@ -507,15 +530,16 @@
             this.pictureBox5.TabIndex = 3;
             this.pictureBox5.TabStop = false;
             // 
-            // button1
+            // agregarPedido
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(767, 72);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(170, 41);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Agregar Pedido";
-            this.button1.UseVisualStyleBackColor = true;
+            this.agregarPedido.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.agregarPedido.Location = new System.Drawing.Point(767, 72);
+            this.agregarPedido.Name = "agregarPedido";
+            this.agregarPedido.Size = new System.Drawing.Size(170, 41);
+            this.agregarPedido.TabIndex = 0;
+            this.agregarPedido.Text = "Agregar Pedido";
+            this.agregarPedido.UseVisualStyleBackColor = true;
+            this.agregarPedido.Click += new System.EventHandler(this.agregarPedido_Click);
             // 
             // tabPage2
             // 
@@ -1034,59 +1058,15 @@
             this.tabPage3.Text = "Clientes";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
-            // tabPage4
+            // pictureBox13
             // 
-            this.tabPage4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.tabPage4.Controls.Add(this.dataGridView1);
-            this.tabPage4.Controls.Add(this.radioButton2);
-            this.tabPage4.Controls.Add(this.radioButton1);
-            this.tabPage4.Controls.Add(this.textBox34);
-            this.tabPage4.Controls.Add(this.Buscar);
-            this.tabPage4.ImageIndex = 4;
-            this.tabPage4.Location = new System.Drawing.Point(4, 79);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(1155, 472);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "Directorio";
-            this.tabPage4.UseVisualStyleBackColor = true;
-            // 
-            // tabPage5
-            // 
-            this.tabPage5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.tabPage5.ImageIndex = 5;
-            this.tabPage5.Location = new System.Drawing.Point(4, 79);
-            this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(1155, 472);
-            this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "Inventario";
-            this.tabPage5.UseVisualStyleBackColor = true;
-            // 
-            // tabPage6
-            // 
-            this.tabPage6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.tabPage6.Font = new System.Drawing.Font("Montserrat", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabPage6.ImageIndex = 6;
-            this.tabPage6.Location = new System.Drawing.Point(4, 79);
-            this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(1155, 472);
-            this.tabPage6.TabIndex = 5;
-            this.tabPage6.Text = "Compras";
-            this.tabPage6.UseVisualStyleBackColor = true;
-            // 
-            // imageList1
-            // 
-            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
-            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList1.Images.SetKeyName(0, "home.png");
-            this.imageList1.Images.SetKeyName(1, "pedido.png");
-            this.imageList1.Images.SetKeyName(2, "agenda.png");
-            this.imageList1.Images.SetKeyName(3, "clientes.png");
-            this.imageList1.Images.SetKeyName(4, "proveedores.png");
-            this.imageList1.Images.SetKeyName(5, "inventario.png");
-            this.imageList1.Images.SetKeyName(6, "compras.png");
+            this.pictureBox13.BackColor = System.Drawing.Color.SteelBlue;
+            this.pictureBox13.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox13.Location = new System.Drawing.Point(6, 1);
+            this.pictureBox13.Name = "pictureBox13";
+            this.pictureBox13.Size = new System.Drawing.Size(1144, 37);
+            this.pictureBox13.TabIndex = 10;
+            this.pictureBox13.TabStop = false;
             // 
             // button7
             // 
@@ -1118,118 +1098,16 @@
             this.button9.Text = "Modificar";
             this.button9.UseVisualStyleBackColor = true;
             // 
-            // pictureBox13
+            // tabControl2
             // 
-            this.pictureBox13.BackColor = System.Drawing.Color.SteelBlue;
-            this.pictureBox13.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox13.Location = new System.Drawing.Point(6, 1);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(161, 37);
-            this.pictureBox13.TabIndex = 10;
-            this.pictureBox13.TabStop = false;
-            // 
-            // tabPage10
-            // 
-            this.tabPage10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.tabPage10.Controls.Add(this.textBox30);
-            this.tabPage10.Controls.Add(this.textBox31);
-            this.tabPage10.Controls.Add(this.textBox32);
-            this.tabPage10.Controls.Add(this.textBox33);
-            this.tabPage10.Controls.Add(this.label36);
-            this.tabPage10.Controls.Add(this.dateTimePicker7);
-            this.tabPage10.Controls.Add(this.label37);
-            this.tabPage10.Controls.Add(this.label38);
-            this.tabPage10.Controls.Add(this.label39);
-            this.tabPage10.Controls.Add(this.label40);
-            this.tabPage10.Controls.Add(this.richTextBox9);
-            this.tabPage10.Controls.Add(this.pictureBox11);
-            this.tabPage10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabPage10.Location = new System.Drawing.Point(4, 40);
-            this.tabPage10.Name = "tabPage10";
-            this.tabPage10.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage10.Size = new System.Drawing.Size(955, 441);
-            this.tabPage10.TabIndex = 2;
-            this.tabPage10.Text = "tabPage10";
-            this.tabPage10.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox11
-            // 
-            this.pictureBox11.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.pictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox11.Image")));
-            this.pictureBox11.Location = new System.Drawing.Point(172, 4);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(87, 80);
-            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox11.TabIndex = 17;
-            this.pictureBox11.TabStop = false;
-            // 
-            // richTextBox9
-            // 
-            this.richTextBox9.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.richTextBox9.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox9.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox9.Location = new System.Drawing.Point(272, 8);
-            this.richTextBox9.Name = "richTextBox9";
-            this.richTextBox9.Size = new System.Drawing.Size(489, 79);
-            this.richTextBox9.TabIndex = 18;
-            this.richTextBox9.Text = resources.GetString("richTextBox9.Text");
-            // 
-            // tabPage9
-            // 
-            this.tabPage9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.tabPage9.Controls.Add(this.textBox23);
-            this.tabPage9.Controls.Add(this.textBox26);
-            this.tabPage9.Controls.Add(this.textBox28);
-            this.tabPage9.Controls.Add(this.textBox29);
-            this.tabPage9.Controls.Add(this.label27);
-            this.tabPage9.Controls.Add(this.dateTimePicker5);
-            this.tabPage9.Controls.Add(this.label28);
-            this.tabPage9.Controls.Add(this.label30);
-            this.tabPage9.Controls.Add(this.label34);
-            this.tabPage9.Controls.Add(this.label35);
-            this.tabPage9.Controls.Add(this.richTextBox8);
-            this.tabPage9.Controls.Add(this.pictureBox10);
-            this.tabPage9.Controls.Add(this.modificarCliente_Btn);
-            this.tabPage9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabPage9.Location = new System.Drawing.Point(4, 40);
-            this.tabPage9.Name = "tabPage9";
-            this.tabPage9.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage9.Size = new System.Drawing.Size(955, 441);
-            this.tabPage9.TabIndex = 1;
-            this.tabPage9.Text = "tabPage9";
-            this.tabPage9.UseVisualStyleBackColor = true;
-            // 
-            // modificarCliente_Btn
-            // 
-            this.modificarCliente_Btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.modificarCliente_Btn.Location = new System.Drawing.Point(596, 355);
-            this.modificarCliente_Btn.Name = "modificarCliente_Btn";
-            this.modificarCliente_Btn.Size = new System.Drawing.Size(170, 41);
-            this.modificarCliente_Btn.TabIndex = 1;
-            this.modificarCliente_Btn.Text = "Aceptar";
-            this.modificarCliente_Btn.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox10
-            // 
-            this.pictureBox10.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
-            this.pictureBox10.Location = new System.Drawing.Point(172, 4);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(87, 80);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox10.TabIndex = 15;
-            this.pictureBox10.TabStop = false;
-            // 
-            // richTextBox8
-            // 
-            this.richTextBox8.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.richTextBox8.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox8.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox8.Location = new System.Drawing.Point(272, 8);
-            this.richTextBox8.Name = "richTextBox8";
-            this.richTextBox8.Size = new System.Drawing.Size(489, 79);
-            this.richTextBox8.TabIndex = 16;
-            this.richTextBox8.Text = resources.GetString("richTextBox8.Text");
+            this.tabControl2.Controls.Add(this.tabPage1);
+            this.tabControl2.Controls.Add(this.tabPage9);
+            this.tabControl2.Controls.Add(this.tabPage10);
+            this.tabControl2.Location = new System.Drawing.Point(194, 1);
+            this.tabControl2.Name = "tabControl2";
+            this.tabControl2.SelectedIndex = 0;
+            this.tabControl2.Size = new System.Drawing.Size(963, 485);
+            this.tabControl2.TabIndex = 5;
             // 
             // tabPage1
             // 
@@ -1256,74 +1134,12 @@
             this.tabPage1.Text = "tabPage1";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
-            // agregarCliente_Btn
+            // textBox22
             // 
-            this.agregarCliente_Btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.agregarCliente_Btn.Location = new System.Drawing.Point(596, 355);
-            this.agregarCliente_Btn.Name = "agregarCliente_Btn";
-            this.agregarCliente_Btn.Size = new System.Drawing.Size(170, 41);
-            this.agregarCliente_Btn.TabIndex = 0;
-            this.agregarCliente_Btn.Text = "Aceptar";
-            this.agregarCliente_Btn.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(172, 4);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(87, 80);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox9.TabIndex = 3;
-            this.pictureBox9.TabStop = false;
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(110, 194);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(79, 20);
-            this.label33.TabIndex = 4;
-            this.label33.Text = "Dirección:";
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(110, 237);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(75, 20);
-            this.label32.TabIndex = 5;
-            this.label32.Text = "Teléfono:";
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(110, 281);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(65, 20);
-            this.label31.TabIndex = 6;
-            this.label31.Text = "Correo: ";
-            // 
-            // textBox27
-            // 
-            this.textBox27.Location = new System.Drawing.Point(211, 194);
-            this.textBox27.Name = "textBox27";
-            this.textBox27.Size = new System.Drawing.Size(555, 26);
-            this.textBox27.TabIndex = 10;
-            // 
-            // textBox25
-            // 
-            this.textBox25.Location = new System.Drawing.Point(211, 275);
-            this.textBox25.Name = "textBox25";
-            this.textBox25.Size = new System.Drawing.Size(555, 26);
-            this.textBox25.TabIndex = 12;
-            // 
-            // textBox24
-            // 
-            this.textBox24.Location = new System.Drawing.Point(211, 234);
-            this.textBox24.Name = "textBox24";
-            this.textBox24.Size = new System.Drawing.Size(555, 26);
-            this.textBox24.TabIndex = 13;
+            this.textBox22.Location = new System.Drawing.Point(211, 149);
+            this.textBox22.Name = "textBox22";
+            this.textBox22.Size = new System.Drawing.Size(555, 26);
+            this.textBox22.TabIndex = 20;
             // 
             // richTextBox7
             // 
@@ -1336,6 +1152,27 @@
             this.richTextBox7.TabIndex = 14;
             this.richTextBox7.Text = resources.GetString("richTextBox7.Text");
             // 
+            // textBox24
+            // 
+            this.textBox24.Location = new System.Drawing.Point(211, 234);
+            this.textBox24.Name = "textBox24";
+            this.textBox24.Size = new System.Drawing.Size(555, 26);
+            this.textBox24.TabIndex = 13;
+            // 
+            // textBox25
+            // 
+            this.textBox25.Location = new System.Drawing.Point(211, 275);
+            this.textBox25.Name = "textBox25";
+            this.textBox25.Size = new System.Drawing.Size(555, 26);
+            this.textBox25.TabIndex = 12;
+            // 
+            // textBox27
+            // 
+            this.textBox27.Location = new System.Drawing.Point(211, 194);
+            this.textBox27.Name = "textBox27";
+            this.textBox27.Size = new System.Drawing.Size(555, 26);
+            this.textBox27.TabIndex = 10;
+            // 
             // label26
             // 
             this.label26.AutoSize = true;
@@ -1345,23 +1182,12 @@
             this.label26.TabIndex = 19;
             this.label26.Text = "Nombre:";
             // 
-            // textBox22
+            // dateTimePicker6
             // 
-            this.textBox22.Location = new System.Drawing.Point(211, 149);
-            this.textBox22.Name = "textBox22";
-            this.textBox22.Size = new System.Drawing.Size(555, 26);
-            this.textBox22.TabIndex = 20;
-            // 
-            // tabControl2
-            // 
-            this.tabControl2.Controls.Add(this.tabPage1);
-            this.tabControl2.Controls.Add(this.tabPage9);
-            this.tabControl2.Controls.Add(this.tabPage10);
-            this.tabControl2.Location = new System.Drawing.Point(194, 1);
-            this.tabControl2.Name = "tabControl2";
-            this.tabControl2.SelectedIndex = 0;
-            this.tabControl2.Size = new System.Drawing.Size(963, 485);
-            this.tabControl2.TabIndex = 5;
+            this.dateTimePicker6.Location = new System.Drawing.Point(295, 319);
+            this.dateTimePicker6.Name = "dateTimePicker6";
+            this.dateTimePicker6.Size = new System.Drawing.Size(268, 26);
+            this.dateTimePicker6.TabIndex = 17;
             // 
             // label29
             // 
@@ -1372,12 +1198,78 @@
             this.label29.TabIndex = 8;
             this.label29.Text = "Fecha de nacimiento:";
             // 
-            // dateTimePicker6
+            // label31
             // 
-            this.dateTimePicker6.Location = new System.Drawing.Point(295, 319);
-            this.dateTimePicker6.Name = "dateTimePicker6";
-            this.dateTimePicker6.Size = new System.Drawing.Size(268, 26);
-            this.dateTimePicker6.TabIndex = 17;
+            this.label31.AutoSize = true;
+            this.label31.Location = new System.Drawing.Point(110, 281);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(65, 20);
+            this.label31.TabIndex = 6;
+            this.label31.Text = "Correo: ";
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Location = new System.Drawing.Point(110, 237);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(75, 20);
+            this.label32.TabIndex = 5;
+            this.label32.Text = "Teléfono:";
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Location = new System.Drawing.Point(110, 194);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(79, 20);
+            this.label33.TabIndex = 4;
+            this.label33.Text = "Dirección:";
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
+            this.pictureBox9.Location = new System.Drawing.Point(172, 4);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(87, 80);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox9.TabIndex = 3;
+            this.pictureBox9.TabStop = false;
+            // 
+            // agregarCliente_Btn
+            // 
+            this.agregarCliente_Btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.agregarCliente_Btn.Location = new System.Drawing.Point(596, 355);
+            this.agregarCliente_Btn.Name = "agregarCliente_Btn";
+            this.agregarCliente_Btn.Size = new System.Drawing.Size(170, 41);
+            this.agregarCliente_Btn.TabIndex = 0;
+            this.agregarCliente_Btn.Text = "Aceptar";
+            this.agregarCliente_Btn.UseVisualStyleBackColor = true;
+            // 
+            // tabPage9
+            // 
+            this.tabPage9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.tabPage9.Controls.Add(this.textBox23);
+            this.tabPage9.Controls.Add(this.textBox26);
+            this.tabPage9.Controls.Add(this.textBox28);
+            this.tabPage9.Controls.Add(this.textBox29);
+            this.tabPage9.Controls.Add(this.label27);
+            this.tabPage9.Controls.Add(this.dateTimePicker5);
+            this.tabPage9.Controls.Add(this.label28);
+            this.tabPage9.Controls.Add(this.label30);
+            this.tabPage9.Controls.Add(this.label34);
+            this.tabPage9.Controls.Add(this.label35);
+            this.tabPage9.Controls.Add(this.richTextBox8);
+            this.tabPage9.Controls.Add(this.pictureBox10);
+            this.tabPage9.Controls.Add(this.modificarCliente_Btn);
+            this.tabPage9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabPage9.Location = new System.Drawing.Point(4, 40);
+            this.tabPage9.Name = "tabPage9";
+            this.tabPage9.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage9.Size = new System.Drawing.Size(955, 441);
+            this.tabPage9.TabIndex = 1;
+            this.tabPage9.Text = "tabPage9";
+            this.tabPage9.UseVisualStyleBackColor = true;
             // 
             // textBox23
             // 
@@ -1459,6 +1351,62 @@
             this.label35.TabIndex = 21;
             this.label35.Text = "Dirección:";
             // 
+            // richTextBox8
+            // 
+            this.richTextBox8.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.richTextBox8.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox8.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox8.Location = new System.Drawing.Point(272, 8);
+            this.richTextBox8.Name = "richTextBox8";
+            this.richTextBox8.Size = new System.Drawing.Size(489, 79);
+            this.richTextBox8.TabIndex = 16;
+            this.richTextBox8.Text = resources.GetString("richTextBox8.Text");
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
+            this.pictureBox10.Location = new System.Drawing.Point(172, 4);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(87, 80);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox10.TabIndex = 15;
+            this.pictureBox10.TabStop = false;
+            // 
+            // modificarCliente_Btn
+            // 
+            this.modificarCliente_Btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.modificarCliente_Btn.Location = new System.Drawing.Point(596, 355);
+            this.modificarCliente_Btn.Name = "modificarCliente_Btn";
+            this.modificarCliente_Btn.Size = new System.Drawing.Size(170, 41);
+            this.modificarCliente_Btn.TabIndex = 1;
+            this.modificarCliente_Btn.Text = "Aceptar";
+            this.modificarCliente_Btn.UseVisualStyleBackColor = true;
+            // 
+            // tabPage10
+            // 
+            this.tabPage10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.tabPage10.Controls.Add(this.textBox30);
+            this.tabPage10.Controls.Add(this.textBox31);
+            this.tabPage10.Controls.Add(this.textBox32);
+            this.tabPage10.Controls.Add(this.textBox33);
+            this.tabPage10.Controls.Add(this.label36);
+            this.tabPage10.Controls.Add(this.dateTimePicker7);
+            this.tabPage10.Controls.Add(this.label37);
+            this.tabPage10.Controls.Add(this.label38);
+            this.tabPage10.Controls.Add(this.label39);
+            this.tabPage10.Controls.Add(this.label40);
+            this.tabPage10.Controls.Add(this.richTextBox9);
+            this.tabPage10.Controls.Add(this.pictureBox11);
+            this.tabPage10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabPage10.Location = new System.Drawing.Point(4, 40);
+            this.tabPage10.Name = "tabPage10";
+            this.tabPage10.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage10.Size = new System.Drawing.Size(955, 441);
+            this.tabPage10.TabIndex = 2;
+            this.tabPage10.Text = "tabPage10";
+            this.tabPage10.UseVisualStyleBackColor = true;
+            // 
             // textBox30
             // 
             this.textBox30.Location = new System.Drawing.Point(253, 143);
@@ -1539,34 +1487,52 @@
             this.label40.TabIndex = 21;
             this.label40.Text = "Dirección:";
             // 
-            // Buscar
+            // richTextBox9
             // 
-            this.Buscar.AutoSize = true;
-            this.Buscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Buscar.Location = new System.Drawing.Point(59, 68);
-            this.Buscar.Name = "Buscar";
-            this.Buscar.Size = new System.Drawing.Size(59, 20);
-            this.Buscar.TabIndex = 0;
-            this.Buscar.Text = "Buscar";
+            this.richTextBox9.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.richTextBox9.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox9.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox9.Location = new System.Drawing.Point(272, 8);
+            this.richTextBox9.Name = "richTextBox9";
+            this.richTextBox9.Size = new System.Drawing.Size(489, 79);
+            this.richTextBox9.TabIndex = 18;
+            this.richTextBox9.Text = resources.GetString("richTextBox9.Text");
             // 
-            // textBox34
+            // pictureBox11
             // 
-            this.textBox34.Location = new System.Drawing.Point(136, 68);
-            this.textBox34.Name = "textBox34";
-            this.textBox34.Size = new System.Drawing.Size(774, 29);
-            this.textBox34.TabIndex = 1;
+            this.pictureBox11.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.pictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox11.Image")));
+            this.pictureBox11.Location = new System.Drawing.Point(172, 4);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(87, 80);
+            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox11.TabIndex = 17;
+            this.pictureBox11.TabStop = false;
             // 
-            // radioButton1
+            // tabPage4
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.Location = new System.Drawing.Point(930, 49);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(83, 24);
-            this.radioButton1.TabIndex = 2;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Nombre";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.tabPage4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.tabPage4.Controls.Add(this.dataGridView1);
+            this.tabPage4.Controls.Add(this.radioButton2);
+            this.tabPage4.Controls.Add(this.radioButton1);
+            this.tabPage4.Controls.Add(this.textBox34);
+            this.tabPage4.Controls.Add(this.Buscar);
+            this.tabPage4.ImageIndex = 4;
+            this.tabPage4.Location = new System.Drawing.Point(4, 79);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage4.Size = new System.Drawing.Size(1155, 472);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "Directorio";
+            this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(49, 130);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(1060, 332);
+            this.dataGridView1.TabIndex = 4;
             // 
             // radioButton2
             // 
@@ -1580,13 +1546,238 @@
             this.radioButton2.Text = "Tipo de material";
             this.radioButton2.UseVisualStyleBackColor = true;
             // 
-            // dataGridView1
+            // radioButton1
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(49, 130);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(1060, 332);
-            this.dataGridView1.TabIndex = 4;
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton1.Location = new System.Drawing.Point(930, 49);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(83, 24);
+            this.radioButton1.TabIndex = 2;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "Nombre";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // textBox34
+            // 
+            this.textBox34.Location = new System.Drawing.Point(136, 68);
+            this.textBox34.Name = "textBox34";
+            this.textBox34.Size = new System.Drawing.Size(774, 29);
+            this.textBox34.TabIndex = 1;
+            // 
+            // Buscar
+            // 
+            this.Buscar.AutoSize = true;
+            this.Buscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Buscar.Location = new System.Drawing.Point(59, 68);
+            this.Buscar.Name = "Buscar";
+            this.Buscar.Size = new System.Drawing.Size(59, 20);
+            this.Buscar.TabIndex = 0;
+            this.Buscar.Text = "Buscar";
+            // 
+            // tabPage5
+            // 
+            this.tabPage5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.tabPage5.Controls.Add(this.pictureBox16);
+            this.tabPage5.Controls.Add(this.tabControl_inventario);
+            this.tabPage5.Controls.Add(this.button3);
+            this.tabPage5.Controls.Add(this.button5);
+            this.tabPage5.Controls.Add(this.button6);
+            this.tabPage5.ImageIndex = 5;
+            this.tabPage5.Location = new System.Drawing.Point(4, 79);
+            this.tabPage5.Name = "tabPage5";
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage5.Size = new System.Drawing.Size(1155, 472);
+            this.tabPage5.TabIndex = 4;
+            this.tabPage5.Text = "Inventario";
+            this.tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox16
+            // 
+            this.pictureBox16.BackColor = System.Drawing.Color.SteelBlue;
+            this.pictureBox16.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox16.Location = new System.Drawing.Point(16, 1);
+            this.pictureBox16.Name = "pictureBox16";
+            this.pictureBox16.Size = new System.Drawing.Size(161, 37);
+            this.pictureBox16.TabIndex = 11;
+            this.pictureBox16.TabStop = false;
+            // 
+            // tabControl_inventario
+            // 
+            this.tabControl_inventario.Controls.Add(this.tabPage_productos);
+            this.tabControl_inventario.Controls.Add(this.tabPage_materiales);
+            this.tabControl_inventario.Controls.Add(this.tabPage_madera);
+            this.tabControl_inventario.Location = new System.Drawing.Point(194, -2);
+            this.tabControl_inventario.Name = "tabControl_inventario";
+            this.tabControl_inventario.SelectedIndex = 0;
+            this.tabControl_inventario.Size = new System.Drawing.Size(963, 485);
+            this.tabControl_inventario.TabIndex = 10;
+            // 
+            // tabPage_productos
+            // 
+            this.tabPage_productos.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.tabPage_productos.Controls.Add(this.richTextBox10);
+            this.tabPage_productos.Controls.Add(this.pictureBox12);
+            this.tabPage_productos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabPage_productos.Location = new System.Drawing.Point(4, 33);
+            this.tabPage_productos.Name = "tabPage_productos";
+            this.tabPage_productos.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage_productos.Size = new System.Drawing.Size(955, 448);
+            this.tabPage_productos.TabIndex = 0;
+            this.tabPage_productos.Text = "tabPage_productos";
+            this.tabPage_productos.UseVisualStyleBackColor = true;
+            // 
+            // richTextBox10
+            // 
+            this.richTextBox10.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.richTextBox10.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox10.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox10.Location = new System.Drawing.Point(272, 8);
+            this.richTextBox10.Name = "richTextBox10";
+            this.richTextBox10.Size = new System.Drawing.Size(489, 79);
+            this.richTextBox10.TabIndex = 14;
+            this.richTextBox10.Text = resources.GetString("richTextBox10.Text");
+            // 
+            // pictureBox12
+            // 
+            this.pictureBox12.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
+            this.pictureBox12.Location = new System.Drawing.Point(172, 4);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(87, 80);
+            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox12.TabIndex = 3;
+            this.pictureBox12.TabStop = false;
+            // 
+            // tabPage_materiales
+            // 
+            this.tabPage_materiales.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.tabPage_materiales.Controls.Add(this.richTextBox11);
+            this.tabPage_materiales.Controls.Add(this.pictureBox14);
+            this.tabPage_materiales.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabPage_materiales.Location = new System.Drawing.Point(4, 33);
+            this.tabPage_materiales.Name = "tabPage_materiales";
+            this.tabPage_materiales.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage_materiales.Size = new System.Drawing.Size(955, 448);
+            this.tabPage_materiales.TabIndex = 1;
+            this.tabPage_materiales.Text = "tabPage12";
+            this.tabPage_materiales.UseVisualStyleBackColor = true;
+            // 
+            // richTextBox11
+            // 
+            this.richTextBox11.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.richTextBox11.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox11.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox11.Location = new System.Drawing.Point(272, 8);
+            this.richTextBox11.Name = "richTextBox11";
+            this.richTextBox11.Size = new System.Drawing.Size(489, 79);
+            this.richTextBox11.TabIndex = 16;
+            this.richTextBox11.Text = resources.GetString("richTextBox11.Text");
+            // 
+            // pictureBox14
+            // 
+            this.pictureBox14.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.pictureBox14.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox14.Image")));
+            this.pictureBox14.Location = new System.Drawing.Point(172, 4);
+            this.pictureBox14.Name = "pictureBox14";
+            this.pictureBox14.Size = new System.Drawing.Size(87, 80);
+            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox14.TabIndex = 15;
+            this.pictureBox14.TabStop = false;
+            // 
+            // tabPage_madera
+            // 
+            this.tabPage_madera.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.tabPage_madera.Controls.Add(this.richTextBox12);
+            this.tabPage_madera.Controls.Add(this.pictureBox15);
+            this.tabPage_madera.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabPage_madera.Location = new System.Drawing.Point(4, 33);
+            this.tabPage_madera.Name = "tabPage_madera";
+            this.tabPage_madera.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage_madera.Size = new System.Drawing.Size(955, 448);
+            this.tabPage_madera.TabIndex = 2;
+            this.tabPage_madera.Text = "tabPage13";
+            this.tabPage_madera.UseVisualStyleBackColor = true;
+            // 
+            // richTextBox12
+            // 
+            this.richTextBox12.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.richTextBox12.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox12.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox12.Location = new System.Drawing.Point(272, 8);
+            this.richTextBox12.Name = "richTextBox12";
+            this.richTextBox12.Size = new System.Drawing.Size(489, 79);
+            this.richTextBox12.TabIndex = 18;
+            this.richTextBox12.Text = resources.GetString("richTextBox12.Text");
+            // 
+            // pictureBox15
+            // 
+            this.pictureBox15.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.pictureBox15.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox15.Image")));
+            this.pictureBox15.Location = new System.Drawing.Point(172, 4);
+            this.pictureBox15.Name = "pictureBox15";
+            this.pictureBox15.Size = new System.Drawing.Size(87, 80);
+            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox15.TabIndex = 17;
+            this.pictureBox15.TabStop = false;
+            // 
+            // button3
+            // 
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(16, 102);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(157, 80);
+            this.button3.TabIndex = 9;
+            this.button3.Text = "Productos";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button5
+            // 
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Location = new System.Drawing.Point(16, 298);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(157, 80);
+            this.button5.TabIndex = 8;
+            this.button5.Text = "Madera";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // button6
+            // 
+            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.Location = new System.Drawing.Point(16, 199);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(157, 80);
+            this.button6.TabIndex = 7;
+            this.button6.Text = "Materiales";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // tabPage6
+            // 
+            this.tabPage6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.tabPage6.Font = new System.Drawing.Font("Montserrat", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabPage6.ImageIndex = 6;
+            this.tabPage6.Location = new System.Drawing.Point(4, 79);
+            this.tabPage6.Name = "tabPage6";
+            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage6.Size = new System.Drawing.Size(1155, 472);
+            this.tabPage6.TabIndex = 5;
+            this.tabPage6.Text = "Compras";
+            this.tabPage6.UseVisualStyleBackColor = true;
+            // 
+            // imageList1
+            // 
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "home.png");
+            this.imageList1.Images.SetKeyName(1, "pedido.png");
+            this.imageList1.Images.SetKeyName(2, "agenda.png");
+            this.imageList1.Images.SetKeyName(3, "clientes.png");
+            this.imageList1.Images.SetKeyName(4, "proveedores.png");
+            this.imageList1.Images.SetKeyName(5, "inventario.png");
+            this.imageList1.Images.SetKeyName(6, "compras.png");
             // 
             // Form1
             // 
@@ -1624,20 +1815,29 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.agenda_tab.ResumeLayout(false);
             this.tabPage3.ResumeLayout(false);
-            this.tabPage4.ResumeLayout(false);
-            this.tabPage4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
-            this.tabPage10.ResumeLayout(false);
-            this.tabPage10.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            this.tabPage9.ResumeLayout(false);
-            this.tabPage9.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            this.tabControl2.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            this.tabControl2.ResumeLayout(false);
+            this.tabPage9.ResumeLayout(false);
+            this.tabPage9.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            this.tabPage10.ResumeLayout(false);
+            this.tabPage10.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
+            this.tabPage4.ResumeLayout(false);
+            this.tabPage4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.tabPage5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
+            this.tabControl_inventario.ResumeLayout(false);
+            this.tabPage_productos.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
+            this.tabPage_materiales.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
+            this.tabPage_madera.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1665,25 +1865,25 @@
         private System.Windows.Forms.Button mostrarPedido_Btn;
         private System.Windows.Forms.Button eliminarPedido_Btn;
         private System.Windows.Forms.Button modificarPedido_Btn;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button agregarPedido;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.RichTextBox richTextBox2;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox_producto;
+        private System.Windows.Forms.TextBox textBox_cantidad;
+        private System.Windows.Forms.TextBox textBox_total;
+        private System.Windows.Forms.TextBox textBox_cliente;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.DateTimePicker fechaEntrega;
+        private System.Windows.Forms.DateTimePicker fechaPedido;
+        private System.Windows.Forms.TextBox textBox_precio;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox textBox_idPedido;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.Label label9;
@@ -1780,6 +1980,20 @@
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.TextBox textBox34;
         private System.Windows.Forms.Label Buscar;
+        private System.Windows.Forms.PictureBox pictureBox16;
+        private System.Windows.Forms.TabControl tabControl_inventario;
+        private System.Windows.Forms.TabPage tabPage_productos;
+        private System.Windows.Forms.RichTextBox richTextBox10;
+        private System.Windows.Forms.PictureBox pictureBox12;
+        private System.Windows.Forms.TabPage tabPage_materiales;
+        private System.Windows.Forms.RichTextBox richTextBox11;
+        private System.Windows.Forms.PictureBox pictureBox14;
+        private System.Windows.Forms.TabPage tabPage_madera;
+        private System.Windows.Forms.RichTextBox richTextBox12;
+        private System.Windows.Forms.PictureBox pictureBox15;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
     }
 }
 
