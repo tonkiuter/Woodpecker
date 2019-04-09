@@ -41,7 +41,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tab_pedidos = new System.Windows.Forms.TabControl();
             this.tab_agregar = new System.Windows.Forms.TabPage();
-            this.comboBox_productos = new System.Windows.Forms.ComboBox();
+            this.comboBox_producto = new System.Windows.Forms.ComboBox();
             this.textBox_idPedido = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.fechaEntrega = new System.Windows.Forms.DateTimePicker();
@@ -61,16 +61,16 @@
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.agregarPedido = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.comboBox_productoEncontrado = new System.Windows.Forms.ComboBox();
+            this.textBox_buscarFolio = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker4 = new System.Windows.Forms.DateTimePicker();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.fechaEntrega_Encontrada = new System.Windows.Forms.DateTimePicker();
+            this.fechaPedido_Encontrada = new System.Windows.Forms.DateTimePicker();
+            this.textBox_precioEncontrado = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.textBox_cantidadEncontrada = new System.Windows.Forms.TextBox();
+            this.textBox_totalEncontrado = new System.Windows.Forms.TextBox();
+            this.textBox_clienteEncontrado = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
@@ -79,18 +79,18 @@
             this.label16 = new System.Windows.Forms.Label();
             this.richTextBox3 = new System.Windows.Forms.RichTextBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.button2 = new System.Windows.Forms.Button();
+            this.modificarPedido_Btn = new System.Windows.Forms.Button();
             this.tabPage7 = new System.Windows.Forms.TabPage();
-            this.textBox21 = new System.Windows.Forms.TextBox();
-            this.textBox20 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.consultarFechaPedido = new System.Windows.Forms.TextBox();
+            this.consultarFechaEntrega = new System.Windows.Forms.TextBox();
+            this.consultarFolio = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
-            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.consultarPrecio = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.textBox17 = new System.Windows.Forms.TextBox();
-            this.textBox18 = new System.Windows.Forms.TextBox();
+            this.consultarProducto = new System.Windows.Forms.TextBox();
+            this.consultarCantidad = new System.Windows.Forms.TextBox();
+            this.consultarTotal = new System.Windows.Forms.TextBox();
+            this.consultarCliente = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
@@ -106,17 +106,17 @@
             this.richTextBox5 = new System.Windows.Forms.RichTextBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.mostrarPedido_Btn = new System.Windows.Forms.Button();
-            this.eliminarPedido_Btn = new System.Windows.Forms.Button();
-            this.modificarPedido_Btn = new System.Windows.Forms.Button();
+            this.facturarPedido_Btn = new System.Windows.Forms.Button();
+            this.pestañaModificarPedido_Btn = new System.Windows.Forms.Button();
             this.agenda_tab = new System.Windows.Forms.TabPage();
             this.richTextBox6 = new System.Windows.Forms.RichTextBox();
             this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.button7 = new System.Windows.Forms.Button();
+            this.agregarCliente_Btn = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
-            this.tabControl2 = new System.Windows.Forms.TabControl();
+            this.tabControl_clientes = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.textBox22 = new System.Windows.Forms.TextBox();
             this.richTextBox7 = new System.Windows.Forms.RichTextBox();
@@ -130,7 +130,7 @@
             this.label32 = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.agregarCliente_Btn = new System.Windows.Forms.Button();
+            this.registrarCliente_Btn = new System.Windows.Forms.Button();
             this.tabPage9 = new System.Windows.Forms.TabPage();
             this.textBox23 = new System.Windows.Forms.TextBox();
             this.textBox26 = new System.Windows.Forms.TextBox();
@@ -180,6 +180,19 @@
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.pictureBox20 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.tabControl3 = new System.Windows.Forms.TabControl();
+            this.tabPage11 = new System.Windows.Forms.TabPage();
+            this.richTextBox13 = new System.Windows.Forms.RichTextBox();
+            this.pictureBox17 = new System.Windows.Forms.PictureBox();
+            this.tabPage12 = new System.Windows.Forms.TabPage();
+            this.richTextBox14 = new System.Windows.Forms.RichTextBox();
+            this.pictureBox18 = new System.Windows.Forms.PictureBox();
+            this.tabPage13 = new System.Windows.Forms.TabPage();
+            this.richTextBox15 = new System.Windows.Forms.RichTextBox();
+            this.pictureBox19 = new System.Windows.Forms.PictureBox();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -200,7 +213,7 @@
             this.agenda_tab.SuspendLayout();
             this.tabPage3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-            this.tabControl2.SuspendLayout();
+            this.tabControl_clientes.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.tabPage9.SuspendLayout();
@@ -218,6 +231,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             this.tabPage_madera.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
+            this.tabPage6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
+            this.tabControl3.SuspendLayout();
+            this.tabPage11.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
+            this.tabPage12.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
+            this.tabPage13.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox2
@@ -305,8 +327,8 @@
             this.pedido_tab.Controls.Add(this.pictureBox1);
             this.pedido_tab.Controls.Add(this.tab_pedidos);
             this.pedido_tab.Controls.Add(this.mostrarPedido_Btn);
-            this.pedido_tab.Controls.Add(this.eliminarPedido_Btn);
-            this.pedido_tab.Controls.Add(this.modificarPedido_Btn);
+            this.pedido_tab.Controls.Add(this.facturarPedido_Btn);
+            this.pedido_tab.Controls.Add(this.pestañaModificarPedido_Btn);
             this.pedido_tab.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pedido_tab.ImageIndex = 1;
             this.pedido_tab.Location = new System.Drawing.Point(4, 79);
@@ -333,7 +355,7 @@
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox1.Location = new System.Drawing.Point(19, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1131, 37);
+            this.pictureBox1.Size = new System.Drawing.Size(1126, 37);
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             // 
@@ -348,11 +370,12 @@
             this.tab_pedidos.SelectedIndex = 0;
             this.tab_pedidos.Size = new System.Drawing.Size(963, 461);
             this.tab_pedidos.TabIndex = 4;
+            this.tab_pedidos.Visible = false;
             // 
             // tab_agregar
             // 
             this.tab_agregar.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.tab_agregar.Controls.Add(this.comboBox_productos);
+            this.tab_agregar.Controls.Add(this.comboBox_producto);
             this.tab_agregar.Controls.Add(this.textBox_idPedido);
             this.tab_agregar.Controls.Add(this.label8);
             this.tab_agregar.Controls.Add(this.fechaEntrega);
@@ -380,14 +403,14 @@
             this.tab_agregar.Text = "tabPage1";
             this.tab_agregar.UseVisualStyleBackColor = true;
             // 
-            // comboBox_productos
+            // comboBox_producto
             // 
-            this.comboBox_productos.FormattingEnabled = true;
-            this.comboBox_productos.Location = new System.Drawing.Point(173, 206);
-            this.comboBox_productos.Name = "comboBox_productos";
-            this.comboBox_productos.Size = new System.Drawing.Size(265, 28);
-            this.comboBox_productos.TabIndex = 21;
-            this.comboBox_productos.SelectedIndexChanged += new System.EventHandler(this.comboBox_productos_SelectedIndexChanged);
+            this.comboBox_producto.FormattingEnabled = true;
+            this.comboBox_producto.Location = new System.Drawing.Point(173, 206);
+            this.comboBox_producto.Name = "comboBox_producto";
+            this.comboBox_producto.Size = new System.Drawing.Size(265, 28);
+            this.comboBox_producto.TabIndex = 21;
+            this.comboBox_producto.SelectedIndexChanged += new System.EventHandler(this.comboBox_productos_SelectedIndexChanged);
             // 
             // textBox_idPedido
             // 
@@ -401,13 +424,13 @@
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(72, 121);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(66, 20);
+            this.label8.Size = new System.Drawing.Size(47, 20);
             this.label8.TabIndex = 19;
-            this.label8.Text = "Pedido: ";
+            this.label8.Text = "Folio:";
             // 
             // fechaEntrega
             // 
-            this.fechaEntrega.Location = new System.Drawing.Point(469, 311);
+            this.fechaEntrega.Location = new System.Drawing.Point(469, 314);
             this.fechaEntrega.Name = "fechaEntrega";
             this.fechaEntrega.Size = new System.Drawing.Size(259, 26);
             this.fechaEntrega.TabIndex = 18;
@@ -467,11 +490,12 @@
             this.textBox_cliente.Name = "textBox_cliente";
             this.textBox_cliente.Size = new System.Drawing.Size(555, 26);
             this.textBox_cliente.TabIndex = 10;
+            this.textBox_cliente.Validating += new System.ComponentModel.CancelEventHandler(this.textBox_cliente_Validating);
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(465, 284);
+            this.label6.Location = new System.Drawing.Point(465, 287);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(139, 20);
             this.label6.TabIndex = 9;
@@ -547,16 +571,16 @@
             // tabPage2
             // 
             this.tabPage2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.tabPage2.Controls.Add(this.textBox7);
+            this.tabPage2.Controls.Add(this.comboBox_productoEncontrado);
+            this.tabPage2.Controls.Add(this.textBox_buscarFolio);
             this.tabPage2.Controls.Add(this.label9);
-            this.tabPage2.Controls.Add(this.dateTimePicker3);
-            this.tabPage2.Controls.Add(this.dateTimePicker4);
-            this.tabPage2.Controls.Add(this.textBox8);
+            this.tabPage2.Controls.Add(this.fechaEntrega_Encontrada);
+            this.tabPage2.Controls.Add(this.fechaPedido_Encontrada);
+            this.tabPage2.Controls.Add(this.textBox_precioEncontrado);
             this.tabPage2.Controls.Add(this.label10);
-            this.tabPage2.Controls.Add(this.textBox9);
-            this.tabPage2.Controls.Add(this.textBox10);
-            this.tabPage2.Controls.Add(this.textBox11);
-            this.tabPage2.Controls.Add(this.textBox12);
+            this.tabPage2.Controls.Add(this.textBox_cantidadEncontrada);
+            this.tabPage2.Controls.Add(this.textBox_totalEncontrado);
+            this.tabPage2.Controls.Add(this.textBox_clienteEncontrado);
             this.tabPage2.Controls.Add(this.label11);
             this.tabPage2.Controls.Add(this.label12);
             this.tabPage2.Controls.Add(this.label13);
@@ -565,7 +589,7 @@
             this.tabPage2.Controls.Add(this.label16);
             this.tabPage2.Controls.Add(this.richTextBox3);
             this.tabPage2.Controls.Add(this.pictureBox6);
-            this.tabPage2.Controls.Add(this.button2);
+            this.tabPage2.Controls.Add(this.modificarPedido_Btn);
             this.tabPage2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabPage2.Location = new System.Drawing.Point(4, 40);
             this.tabPage2.Name = "tabPage2";
@@ -575,42 +599,58 @@
             this.tabPage2.Text = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // textBox7
+            // comboBox_productoEncontrado
             // 
-            this.textBox7.Location = new System.Drawing.Point(173, 121);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(102, 26);
-            this.textBox7.TabIndex = 36;
+            this.comboBox_productoEncontrado.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.comboBox_productoEncontrado.FormattingEnabled = true;
+            this.comboBox_productoEncontrado.Location = new System.Drawing.Point(172, 209);
+            this.comboBox_productoEncontrado.Name = "comboBox_productoEncontrado";
+            this.comboBox_productoEncontrado.Size = new System.Drawing.Size(265, 28);
+            this.comboBox_productoEncontrado.TabIndex = 37;
+            this.comboBox_productoEncontrado.SelectedIndexChanged += new System.EventHandler(this.comboBox_productoEncontrado_SelectedIndexChanged);
+            // 
+            // textBox_buscarFolio
+            // 
+            this.textBox_buscarFolio.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.textBox_buscarFolio.Location = new System.Drawing.Point(173, 121);
+            this.textBox_buscarFolio.Name = "textBox_buscarFolio";
+            this.textBox_buscarFolio.Size = new System.Drawing.Size(102, 26);
+            this.textBox_buscarFolio.TabIndex = 36;
+            this.textBox_buscarFolio.TextChanged += new System.EventHandler(this.textBox_buscarFolio_TextChanged);
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(72, 121);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(66, 20);
+            this.label9.Size = new System.Drawing.Size(51, 20);
             this.label9.TabIndex = 35;
-            this.label9.Text = "Pedido: ";
+            this.label9.Text = "Folio: ";
             // 
-            // dateTimePicker3
+            // fechaEntrega_Encontrada
             // 
-            this.dateTimePicker3.Location = new System.Drawing.Point(469, 311);
-            this.dateTimePicker3.Name = "dateTimePicker3";
-            this.dateTimePicker3.Size = new System.Drawing.Size(259, 26);
-            this.dateTimePicker3.TabIndex = 34;
+            this.fechaEntrega_Encontrada.CalendarMonthBackground = System.Drawing.SystemColors.ScrollBar;
+            this.fechaEntrega_Encontrada.Location = new System.Drawing.Point(469, 311);
+            this.fechaEntrega_Encontrada.Name = "fechaEntrega_Encontrada";
+            this.fechaEntrega_Encontrada.Size = new System.Drawing.Size(259, 26);
+            this.fechaEntrega_Encontrada.TabIndex = 34;
             // 
-            // dateTimePicker4
+            // fechaPedido_Encontrada
             // 
-            this.dateTimePicker4.Location = new System.Drawing.Point(76, 314);
-            this.dateTimePicker4.Name = "dateTimePicker4";
-            this.dateTimePicker4.Size = new System.Drawing.Size(268, 26);
-            this.dateTimePicker4.TabIndex = 33;
+            this.fechaPedido_Encontrada.CalendarMonthBackground = System.Drawing.SystemColors.ScrollBar;
+            this.fechaPedido_Encontrada.CalendarTitleBackColor = System.Drawing.SystemColors.ScrollBar;
+            this.fechaPedido_Encontrada.Location = new System.Drawing.Point(76, 314);
+            this.fechaPedido_Encontrada.Name = "fechaPedido_Encontrada";
+            this.fechaPedido_Encontrada.Size = new System.Drawing.Size(268, 26);
+            this.fechaPedido_Encontrada.TabIndex = 33;
             // 
-            // textBox8
+            // textBox_precioEncontrado
             // 
-            this.textBox8.Location = new System.Drawing.Point(539, 207);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(189, 26);
-            this.textBox8.TabIndex = 32;
+            this.textBox_precioEncontrado.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.textBox_precioEncontrado.Location = new System.Drawing.Point(539, 207);
+            this.textBox_precioEncontrado.Name = "textBox_precioEncontrado";
+            this.textBox_precioEncontrado.Size = new System.Drawing.Size(189, 26);
+            this.textBox_precioEncontrado.TabIndex = 32;
             // 
             // label10
             // 
@@ -621,33 +661,30 @@
             this.label10.TabIndex = 31;
             this.label10.Text = "Precio:";
             // 
-            // textBox9
+            // textBox_cantidadEncontrada
             // 
-            this.textBox9.Location = new System.Drawing.Point(173, 206);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(264, 26);
-            this.textBox9.TabIndex = 30;
+            this.textBox_cantidadEncontrada.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.textBox_cantidadEncontrada.Location = new System.Drawing.Point(173, 247);
+            this.textBox_cantidadEncontrada.Name = "textBox_cantidadEncontrada";
+            this.textBox_cantidadEncontrada.Size = new System.Drawing.Size(264, 26);
+            this.textBox_cantidadEncontrada.TabIndex = 29;
+            this.textBox_cantidadEncontrada.TextChanged += new System.EventHandler(this.textBox_cantidadEncontrada_TextChanged);
             // 
-            // textBox10
+            // textBox_totalEncontrado
             // 
-            this.textBox10.Location = new System.Drawing.Point(173, 247);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(264, 26);
-            this.textBox10.TabIndex = 29;
+            this.textBox_totalEncontrado.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.textBox_totalEncontrado.Location = new System.Drawing.Point(539, 247);
+            this.textBox_totalEncontrado.Name = "textBox_totalEncontrado";
+            this.textBox_totalEncontrado.Size = new System.Drawing.Size(189, 26);
+            this.textBox_totalEncontrado.TabIndex = 28;
             // 
-            // textBox11
+            // textBox_clienteEncontrado
             // 
-            this.textBox11.Location = new System.Drawing.Point(539, 247);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(189, 26);
-            this.textBox11.TabIndex = 28;
-            // 
-            // textBox12
-            // 
-            this.textBox12.Location = new System.Drawing.Point(173, 166);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(555, 26);
-            this.textBox12.TabIndex = 27;
+            this.textBox_clienteEncontrado.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.textBox_clienteEncontrado.Location = new System.Drawing.Point(173, 166);
+            this.textBox_clienteEncontrado.Name = "textBox_clienteEncontrado";
+            this.textBox_clienteEncontrado.Size = new System.Drawing.Size(555, 26);
+            this.textBox_clienteEncontrado.TabIndex = 27;
             // 
             // label11
             // 
@@ -725,29 +762,30 @@
             this.pictureBox6.TabIndex = 15;
             this.pictureBox6.TabStop = false;
             // 
-            // button2
+            // modificarPedido_Btn
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(760, 72);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(190, 41);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Modificar Pedido";
-            this.button2.UseVisualStyleBackColor = true;
+            this.modificarPedido_Btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.modificarPedido_Btn.Location = new System.Drawing.Point(760, 72);
+            this.modificarPedido_Btn.Name = "modificarPedido_Btn";
+            this.modificarPedido_Btn.Size = new System.Drawing.Size(190, 41);
+            this.modificarPedido_Btn.TabIndex = 1;
+            this.modificarPedido_Btn.Text = "Modificar Pedido";
+            this.modificarPedido_Btn.UseVisualStyleBackColor = true;
+            this.modificarPedido_Btn.Click += new System.EventHandler(this.modificarPedido_Btn_Click);
             // 
             // tabPage7
             // 
             this.tabPage7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.tabPage7.Controls.Add(this.textBox21);
-            this.tabPage7.Controls.Add(this.textBox20);
-            this.tabPage7.Controls.Add(this.textBox13);
+            this.tabPage7.Controls.Add(this.consultarFechaPedido);
+            this.tabPage7.Controls.Add(this.consultarFechaEntrega);
+            this.tabPage7.Controls.Add(this.consultarFolio);
             this.tabPage7.Controls.Add(this.label17);
-            this.tabPage7.Controls.Add(this.textBox14);
+            this.tabPage7.Controls.Add(this.consultarPrecio);
             this.tabPage7.Controls.Add(this.label18);
-            this.tabPage7.Controls.Add(this.textBox15);
-            this.tabPage7.Controls.Add(this.textBox16);
-            this.tabPage7.Controls.Add(this.textBox17);
-            this.tabPage7.Controls.Add(this.textBox18);
+            this.tabPage7.Controls.Add(this.consultarProducto);
+            this.tabPage7.Controls.Add(this.consultarCantidad);
+            this.tabPage7.Controls.Add(this.consultarTotal);
+            this.tabPage7.Controls.Add(this.consultarCliente);
             this.tabPage7.Controls.Add(this.label19);
             this.tabPage7.Controls.Add(this.label20);
             this.tabPage7.Controls.Add(this.label21);
@@ -765,42 +803,46 @@
             this.tabPage7.Text = "tabPage7";
             this.tabPage7.UseVisualStyleBackColor = true;
             // 
-            // textBox21
+            // consultarFechaPedido
             // 
-            this.textBox21.Location = new System.Drawing.Point(77, 313);
-            this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(264, 26);
-            this.textBox21.TabIndex = 54;
+            this.consultarFechaPedido.Location = new System.Drawing.Point(222, 287);
+            this.consultarFechaPedido.Name = "consultarFechaPedido";
+            this.consultarFechaPedido.ReadOnly = true;
+            this.consultarFechaPedido.Size = new System.Drawing.Size(126, 26);
+            this.consultarFechaPedido.TabIndex = 54;
             // 
-            // textBox20
+            // consultarFechaEntrega
             // 
-            this.textBox20.Location = new System.Drawing.Point(462, 311);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(264, 26);
-            this.textBox20.TabIndex = 53;
+            this.consultarFechaEntrega.Location = new System.Drawing.Point(610, 287);
+            this.consultarFechaEntrega.Name = "consultarFechaEntrega";
+            this.consultarFechaEntrega.ReadOnly = true;
+            this.consultarFechaEntrega.Size = new System.Drawing.Size(118, 26);
+            this.consultarFechaEntrega.TabIndex = 53;
             // 
-            // textBox13
+            // consultarFolio
             // 
-            this.textBox13.Location = new System.Drawing.Point(173, 121);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(102, 26);
-            this.textBox13.TabIndex = 52;
+            this.consultarFolio.Location = new System.Drawing.Point(173, 121);
+            this.consultarFolio.Name = "consultarFolio";
+            this.consultarFolio.Size = new System.Drawing.Size(102, 26);
+            this.consultarFolio.TabIndex = 52;
+            this.consultarFolio.TextChanged += new System.EventHandler(this.consultarFolio_TextChanged);
             // 
             // label17
             // 
             this.label17.AutoSize = true;
             this.label17.Location = new System.Drawing.Point(72, 121);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(66, 20);
+            this.label17.Size = new System.Drawing.Size(51, 20);
             this.label17.TabIndex = 51;
-            this.label17.Text = "Pedido: ";
+            this.label17.Text = "Folio: ";
             // 
-            // textBox14
+            // consultarPrecio
             // 
-            this.textBox14.Location = new System.Drawing.Point(539, 207);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(189, 26);
-            this.textBox14.TabIndex = 48;
+            this.consultarPrecio.Location = new System.Drawing.Point(539, 207);
+            this.consultarPrecio.Name = "consultarPrecio";
+            this.consultarPrecio.ReadOnly = true;
+            this.consultarPrecio.Size = new System.Drawing.Size(189, 26);
+            this.consultarPrecio.TabIndex = 48;
             // 
             // label18
             // 
@@ -811,38 +853,42 @@
             this.label18.TabIndex = 47;
             this.label18.Text = "Precio:";
             // 
-            // textBox15
+            // consultarProducto
             // 
-            this.textBox15.Location = new System.Drawing.Point(173, 206);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(264, 26);
-            this.textBox15.TabIndex = 46;
+            this.consultarProducto.Location = new System.Drawing.Point(173, 206);
+            this.consultarProducto.Name = "consultarProducto";
+            this.consultarProducto.ReadOnly = true;
+            this.consultarProducto.Size = new System.Drawing.Size(264, 26);
+            this.consultarProducto.TabIndex = 46;
             // 
-            // textBox16
+            // consultarCantidad
             // 
-            this.textBox16.Location = new System.Drawing.Point(173, 247);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(264, 26);
-            this.textBox16.TabIndex = 45;
+            this.consultarCantidad.Location = new System.Drawing.Point(173, 247);
+            this.consultarCantidad.Name = "consultarCantidad";
+            this.consultarCantidad.ReadOnly = true;
+            this.consultarCantidad.Size = new System.Drawing.Size(264, 26);
+            this.consultarCantidad.TabIndex = 45;
             // 
-            // textBox17
+            // consultarTotal
             // 
-            this.textBox17.Location = new System.Drawing.Point(539, 247);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(189, 26);
-            this.textBox17.TabIndex = 44;
+            this.consultarTotal.Location = new System.Drawing.Point(539, 247);
+            this.consultarTotal.Name = "consultarTotal";
+            this.consultarTotal.ReadOnly = true;
+            this.consultarTotal.Size = new System.Drawing.Size(189, 26);
+            this.consultarTotal.TabIndex = 44;
             // 
-            // textBox18
+            // consultarCliente
             // 
-            this.textBox18.Location = new System.Drawing.Point(173, 166);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(555, 26);
-            this.textBox18.TabIndex = 43;
+            this.consultarCliente.Location = new System.Drawing.Point(173, 166);
+            this.consultarCliente.Name = "consultarCliente";
+            this.consultarCliente.ReadOnly = true;
+            this.consultarCliente.Size = new System.Drawing.Size(555, 26);
+            this.consultarCliente.TabIndex = 43;
             // 
             // label19
             // 
             this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(465, 284);
+            this.label19.Location = new System.Drawing.Point(465, 287);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(139, 20);
             this.label19.TabIndex = 42;
@@ -990,27 +1036,27 @@
             this.mostrarPedido_Btn.UseVisualStyleBackColor = true;
             this.mostrarPedido_Btn.Click += new System.EventHandler(this.mostrarPedido_Btn_Click);
             // 
-            // eliminarPedido_Btn
+            // facturarPedido_Btn
             // 
-            this.eliminarPedido_Btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.eliminarPedido_Btn.Location = new System.Drawing.Point(19, 364);
-            this.eliminarPedido_Btn.Name = "eliminarPedido_Btn";
-            this.eliminarPedido_Btn.Size = new System.Drawing.Size(157, 80);
-            this.eliminarPedido_Btn.TabIndex = 2;
-            this.eliminarPedido_Btn.Text = "Facturar";
-            this.eliminarPedido_Btn.UseVisualStyleBackColor = true;
-            this.eliminarPedido_Btn.Click += new System.EventHandler(this.eliminarPedido_Btn_Click);
+            this.facturarPedido_Btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.facturarPedido_Btn.Location = new System.Drawing.Point(19, 364);
+            this.facturarPedido_Btn.Name = "facturarPedido_Btn";
+            this.facturarPedido_Btn.Size = new System.Drawing.Size(157, 80);
+            this.facturarPedido_Btn.TabIndex = 2;
+            this.facturarPedido_Btn.Text = "Facturar";
+            this.facturarPedido_Btn.UseVisualStyleBackColor = true;
+            this.facturarPedido_Btn.Click += new System.EventHandler(this.facturarPedido_Btn_Click);
             // 
-            // modificarPedido_Btn
+            // pestañaModificarPedido_Btn
             // 
-            this.modificarPedido_Btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.modificarPedido_Btn.Location = new System.Drawing.Point(19, 157);
-            this.modificarPedido_Btn.Name = "modificarPedido_Btn";
-            this.modificarPedido_Btn.Size = new System.Drawing.Size(157, 80);
-            this.modificarPedido_Btn.TabIndex = 1;
-            this.modificarPedido_Btn.Text = "Modificar";
-            this.modificarPedido_Btn.UseVisualStyleBackColor = true;
-            this.modificarPedido_Btn.Click += new System.EventHandler(this.modificarPedido_Btn_Click);
+            this.pestañaModificarPedido_Btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pestañaModificarPedido_Btn.Location = new System.Drawing.Point(19, 157);
+            this.pestañaModificarPedido_Btn.Name = "pestañaModificarPedido_Btn";
+            this.pestañaModificarPedido_Btn.Size = new System.Drawing.Size(157, 80);
+            this.pestañaModificarPedido_Btn.TabIndex = 1;
+            this.pestañaModificarPedido_Btn.Text = "Modificar";
+            this.pestañaModificarPedido_Btn.UseVisualStyleBackColor = true;
+            this.pestañaModificarPedido_Btn.Click += new System.EventHandler(this.pestañaModificarPedido_Btn_Click);
             // 
             // agenda_tab
             // 
@@ -1047,10 +1093,10 @@
             // 
             this.tabPage3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.tabPage3.Controls.Add(this.pictureBox13);
-            this.tabPage3.Controls.Add(this.button7);
+            this.tabPage3.Controls.Add(this.agregarCliente_Btn);
             this.tabPage3.Controls.Add(this.button8);
             this.tabPage3.Controls.Add(this.button9);
-            this.tabPage3.Controls.Add(this.tabControl2);
+            this.tabPage3.Controls.Add(this.tabControl_clientes);
             this.tabPage3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabPage3.ImageIndex = 3;
             this.tabPage3.Location = new System.Drawing.Point(4, 79);
@@ -1071,15 +1117,15 @@
             this.pictureBox13.TabIndex = 10;
             this.pictureBox13.TabStop = false;
             // 
-            // button7
+            // agregarCliente_Btn
             // 
-            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.Location = new System.Drawing.Point(17, 107);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(157, 80);
-            this.button7.TabIndex = 9;
-            this.button7.Text = "Nuevo";
-            this.button7.UseVisualStyleBackColor = true;
+            this.agregarCliente_Btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.agregarCliente_Btn.Location = new System.Drawing.Point(17, 107);
+            this.agregarCliente_Btn.Name = "agregarCliente_Btn";
+            this.agregarCliente_Btn.Size = new System.Drawing.Size(157, 80);
+            this.agregarCliente_Btn.TabIndex = 9;
+            this.agregarCliente_Btn.Text = "Nuevo";
+            this.agregarCliente_Btn.UseVisualStyleBackColor = true;
             // 
             // button8
             // 
@@ -1101,16 +1147,16 @@
             this.button9.Text = "Modificar";
             this.button9.UseVisualStyleBackColor = true;
             // 
-            // tabControl2
+            // tabControl_clientes
             // 
-            this.tabControl2.Controls.Add(this.tabPage1);
-            this.tabControl2.Controls.Add(this.tabPage9);
-            this.tabControl2.Controls.Add(this.tabPage10);
-            this.tabControl2.Location = new System.Drawing.Point(194, 1);
-            this.tabControl2.Name = "tabControl2";
-            this.tabControl2.SelectedIndex = 0;
-            this.tabControl2.Size = new System.Drawing.Size(963, 485);
-            this.tabControl2.TabIndex = 5;
+            this.tabControl_clientes.Controls.Add(this.tabPage1);
+            this.tabControl_clientes.Controls.Add(this.tabPage9);
+            this.tabControl_clientes.Controls.Add(this.tabPage10);
+            this.tabControl_clientes.Location = new System.Drawing.Point(194, 1);
+            this.tabControl_clientes.Name = "tabControl_clientes";
+            this.tabControl_clientes.SelectedIndex = 0;
+            this.tabControl_clientes.Size = new System.Drawing.Size(963, 485);
+            this.tabControl_clientes.TabIndex = 5;
             // 
             // tabPage1
             // 
@@ -1127,7 +1173,7 @@
             this.tabPage1.Controls.Add(this.label32);
             this.tabPage1.Controls.Add(this.label33);
             this.tabPage1.Controls.Add(this.pictureBox9);
-            this.tabPage1.Controls.Add(this.agregarCliente_Btn);
+            this.tabPage1.Controls.Add(this.registrarCliente_Btn);
             this.tabPage1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabPage1.Location = new System.Drawing.Point(4, 40);
             this.tabPage1.Name = "tabPage1";
@@ -1239,15 +1285,15 @@
             this.pictureBox9.TabIndex = 3;
             this.pictureBox9.TabStop = false;
             // 
-            // agregarCliente_Btn
+            // registrarCliente_Btn
             // 
-            this.agregarCliente_Btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.agregarCliente_Btn.Location = new System.Drawing.Point(596, 355);
-            this.agregarCliente_Btn.Name = "agregarCliente_Btn";
-            this.agregarCliente_Btn.Size = new System.Drawing.Size(170, 41);
-            this.agregarCliente_Btn.TabIndex = 0;
-            this.agregarCliente_Btn.Text = "Aceptar";
-            this.agregarCliente_Btn.UseVisualStyleBackColor = true;
+            this.registrarCliente_Btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.registrarCliente_Btn.Location = new System.Drawing.Point(596, 355);
+            this.registrarCliente_Btn.Name = "registrarCliente_Btn";
+            this.registrarCliente_Btn.Size = new System.Drawing.Size(170, 41);
+            this.registrarCliente_Btn.TabIndex = 0;
+            this.registrarCliente_Btn.Text = "Registrar cliente";
+            this.registrarCliente_Btn.UseVisualStyleBackColor = true;
             // 
             // tabPage9
             // 
@@ -1601,7 +1647,7 @@
             this.pictureBox16.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox16.Location = new System.Drawing.Point(16, 1);
             this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(161, 37);
+            this.pictureBox16.Size = new System.Drawing.Size(1137, 37);
             this.pictureBox16.TabIndex = 11;
             this.pictureBox16.TabStop = false;
             // 
@@ -1610,10 +1656,10 @@
             this.tabControl_inventario.Controls.Add(this.tabPage_productos);
             this.tabControl_inventario.Controls.Add(this.tabPage_materiales);
             this.tabControl_inventario.Controls.Add(this.tabPage_madera);
-            this.tabControl_inventario.Location = new System.Drawing.Point(194, -2);
+            this.tabControl_inventario.Location = new System.Drawing.Point(193, 6);
             this.tabControl_inventario.Name = "tabControl_inventario";
             this.tabControl_inventario.SelectedIndex = 0;
-            this.tabControl_inventario.Size = new System.Drawing.Size(963, 485);
+            this.tabControl_inventario.Size = new System.Drawing.Size(964, 477);
             this.tabControl_inventario.TabIndex = 10;
             // 
             // tabPage_productos
@@ -1625,7 +1671,7 @@
             this.tabPage_productos.Location = new System.Drawing.Point(4, 33);
             this.tabPage_productos.Name = "tabPage_productos";
             this.tabPage_productos.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_productos.Size = new System.Drawing.Size(955, 448);
+            this.tabPage_productos.Size = new System.Drawing.Size(956, 440);
             this.tabPage_productos.TabIndex = 0;
             this.tabPage_productos.Text = "tabPage_productos";
             this.tabPage_productos.UseVisualStyleBackColor = true;
@@ -1661,7 +1707,7 @@
             this.tabPage_materiales.Location = new System.Drawing.Point(4, 33);
             this.tabPage_materiales.Name = "tabPage_materiales";
             this.tabPage_materiales.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_materiales.Size = new System.Drawing.Size(955, 448);
+            this.tabPage_materiales.Size = new System.Drawing.Size(956, 440);
             this.tabPage_materiales.TabIndex = 1;
             this.tabPage_materiales.Text = "tabPage12";
             this.tabPage_materiales.UseVisualStyleBackColor = true;
@@ -1697,7 +1743,7 @@
             this.tabPage_madera.Location = new System.Drawing.Point(4, 33);
             this.tabPage_madera.Name = "tabPage_madera";
             this.tabPage_madera.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_madera.Size = new System.Drawing.Size(955, 448);
+            this.tabPage_madera.Size = new System.Drawing.Size(956, 440);
             this.tabPage_madera.TabIndex = 2;
             this.tabPage_madera.Text = "tabPage13";
             this.tabPage_madera.UseVisualStyleBackColor = true;
@@ -1760,6 +1806,10 @@
             // tabPage6
             // 
             this.tabPage6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.tabPage6.Controls.Add(this.pictureBox20);
+            this.tabPage6.Controls.Add(this.button1);
+            this.tabPage6.Controls.Add(this.button10);
+            this.tabPage6.Controls.Add(this.tabControl3);
             this.tabPage6.Font = new System.Drawing.Font("Montserrat", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabPage6.ImageIndex = 6;
             this.tabPage6.Location = new System.Drawing.Point(4, 79);
@@ -1769,6 +1819,155 @@
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "Compras";
             this.tabPage6.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox20
+            // 
+            this.pictureBox20.BackColor = System.Drawing.Color.SteelBlue;
+            this.pictureBox20.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox20.Location = new System.Drawing.Point(6, 1);
+            this.pictureBox20.Name = "pictureBox20";
+            this.pictureBox20.Size = new System.Drawing.Size(1144, 37);
+            this.pictureBox20.TabIndex = 14;
+            this.pictureBox20.TabStop = false;
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(16, 291);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(157, 80);
+            this.button1.TabIndex = 13;
+            this.button1.Text = "Madera";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button10
+            // 
+            this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button10.Location = new System.Drawing.Point(16, 132);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(157, 80);
+            this.button10.TabIndex = 12;
+            this.button10.Text = "Materiales";
+            this.button10.UseVisualStyleBackColor = true;
+            // 
+            // tabControl3
+            // 
+            this.tabControl3.Controls.Add(this.tabPage11);
+            this.tabControl3.Controls.Add(this.tabPage12);
+            this.tabControl3.Controls.Add(this.tabPage13);
+            this.tabControl3.Location = new System.Drawing.Point(188, 0);
+            this.tabControl3.Name = "tabControl3";
+            this.tabControl3.SelectedIndex = 0;
+            this.tabControl3.Size = new System.Drawing.Size(964, 477);
+            this.tabControl3.TabIndex = 11;
+            // 
+            // tabPage11
+            // 
+            this.tabPage11.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.tabPage11.Controls.Add(this.richTextBox13);
+            this.tabPage11.Controls.Add(this.pictureBox17);
+            this.tabPage11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabPage11.Location = new System.Drawing.Point(4, 38);
+            this.tabPage11.Name = "tabPage11";
+            this.tabPage11.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage11.Size = new System.Drawing.Size(956, 435);
+            this.tabPage11.TabIndex = 0;
+            this.tabPage11.Text = "tabPage11";
+            this.tabPage11.UseVisualStyleBackColor = true;
+            // 
+            // richTextBox13
+            // 
+            this.richTextBox13.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.richTextBox13.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox13.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox13.Location = new System.Drawing.Point(272, 8);
+            this.richTextBox13.Name = "richTextBox13";
+            this.richTextBox13.Size = new System.Drawing.Size(489, 79);
+            this.richTextBox13.TabIndex = 14;
+            this.richTextBox13.Text = resources.GetString("richTextBox13.Text");
+            // 
+            // pictureBox17
+            // 
+            this.pictureBox17.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.pictureBox17.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox17.Image")));
+            this.pictureBox17.Location = new System.Drawing.Point(172, 4);
+            this.pictureBox17.Name = "pictureBox17";
+            this.pictureBox17.Size = new System.Drawing.Size(87, 80);
+            this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox17.TabIndex = 3;
+            this.pictureBox17.TabStop = false;
+            // 
+            // tabPage12
+            // 
+            this.tabPage12.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.tabPage12.Controls.Add(this.richTextBox14);
+            this.tabPage12.Controls.Add(this.pictureBox18);
+            this.tabPage12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabPage12.Location = new System.Drawing.Point(4, 38);
+            this.tabPage12.Name = "tabPage12";
+            this.tabPage12.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage12.Size = new System.Drawing.Size(956, 435);
+            this.tabPage12.TabIndex = 1;
+            this.tabPage12.Text = "tabPage12";
+            this.tabPage12.UseVisualStyleBackColor = true;
+            // 
+            // richTextBox14
+            // 
+            this.richTextBox14.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.richTextBox14.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox14.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox14.Location = new System.Drawing.Point(272, 8);
+            this.richTextBox14.Name = "richTextBox14";
+            this.richTextBox14.Size = new System.Drawing.Size(489, 79);
+            this.richTextBox14.TabIndex = 16;
+            this.richTextBox14.Text = resources.GetString("richTextBox14.Text");
+            // 
+            // pictureBox18
+            // 
+            this.pictureBox18.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.pictureBox18.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox18.Image")));
+            this.pictureBox18.Location = new System.Drawing.Point(172, 4);
+            this.pictureBox18.Name = "pictureBox18";
+            this.pictureBox18.Size = new System.Drawing.Size(87, 80);
+            this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox18.TabIndex = 15;
+            this.pictureBox18.TabStop = false;
+            // 
+            // tabPage13
+            // 
+            this.tabPage13.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.tabPage13.Controls.Add(this.richTextBox15);
+            this.tabPage13.Controls.Add(this.pictureBox19);
+            this.tabPage13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabPage13.Location = new System.Drawing.Point(4, 38);
+            this.tabPage13.Name = "tabPage13";
+            this.tabPage13.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage13.Size = new System.Drawing.Size(956, 435);
+            this.tabPage13.TabIndex = 2;
+            this.tabPage13.Text = "tabPage13";
+            this.tabPage13.UseVisualStyleBackColor = true;
+            // 
+            // richTextBox15
+            // 
+            this.richTextBox15.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.richTextBox15.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox15.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox15.Location = new System.Drawing.Point(272, 8);
+            this.richTextBox15.Name = "richTextBox15";
+            this.richTextBox15.Size = new System.Drawing.Size(489, 79);
+            this.richTextBox15.TabIndex = 18;
+            this.richTextBox15.Text = resources.GetString("richTextBox15.Text");
+            // 
+            // pictureBox19
+            // 
+            this.pictureBox19.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.pictureBox19.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox19.Image")));
+            this.pictureBox19.Location = new System.Drawing.Point(172, 4);
+            this.pictureBox19.Name = "pictureBox19";
+            this.pictureBox19.Size = new System.Drawing.Size(87, 80);
+            this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox19.TabIndex = 17;
+            this.pictureBox19.TabStop = false;
             // 
             // imageList1
             // 
@@ -1819,7 +2018,7 @@
             this.agenda_tab.ResumeLayout(false);
             this.tabPage3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
-            this.tabControl2.ResumeLayout(false);
+            this.tabControl_clientes.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
@@ -1841,6 +2040,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             this.tabPage_madera.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
+            this.tabPage6.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
+            this.tabControl3.ResumeLayout(false);
+            this.tabPage11.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
+            this.tabPage12.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
+            this.tabPage13.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1866,10 +2074,10 @@
         private System.Windows.Forms.TabPage tabPage7;
         private System.Windows.Forms.TabPage tabPage8;
         private System.Windows.Forms.Button mostrarPedido_Btn;
-        private System.Windows.Forms.Button eliminarPedido_Btn;
-        private System.Windows.Forms.Button modificarPedido_Btn;
+        private System.Windows.Forms.Button facturarPedido_Btn;
+        private System.Windows.Forms.Button pestañaModificarPedido_Btn;
         private System.Windows.Forms.Button agregarPedido;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button modificarPedido_Btn;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.RichTextBox richTextBox2;
         private System.Windows.Forms.TextBox textBox_cantidad;
@@ -1887,16 +2095,15 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox textBox_idPedido;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox textBox_buscarFolio;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.DateTimePicker dateTimePicker3;
-        private System.Windows.Forms.DateTimePicker dateTimePicker4;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.DateTimePicker fechaEntrega_Encontrada;
+        private System.Windows.Forms.DateTimePicker fechaPedido_Encontrada;
+        private System.Windows.Forms.TextBox textBox_precioEncontrado;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.TextBox textBox_cantidadEncontrada;
+        private System.Windows.Forms.TextBox textBox_totalEncontrado;
+        private System.Windows.Forms.TextBox textBox_clienteEncontrado;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
@@ -1905,16 +2112,16 @@
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.RichTextBox richTextBox3;
         private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.TextBox textBox21;
-        private System.Windows.Forms.TextBox textBox20;
-        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.TextBox consultarFechaPedido;
+        private System.Windows.Forms.TextBox consultarFechaEntrega;
+        private System.Windows.Forms.TextBox consultarFolio;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.TextBox textBox14;
+        private System.Windows.Forms.TextBox consultarPrecio;
         private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.TextBox textBox15;
-        private System.Windows.Forms.TextBox textBox16;
-        private System.Windows.Forms.TextBox textBox17;
-        private System.Windows.Forms.TextBox textBox18;
+        private System.Windows.Forms.TextBox consultarProducto;
+        private System.Windows.Forms.TextBox consultarCantidad;
+        private System.Windows.Forms.TextBox consultarTotal;
+        private System.Windows.Forms.TextBox consultarCliente;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label21;
@@ -1932,10 +2139,10 @@
         private System.Windows.Forms.MonthCalendar monthCalendar1;
         private System.Windows.Forms.RichTextBox richTextBox6;
         private System.Windows.Forms.PictureBox pictureBox13;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button agregarCliente_Btn;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.TabControl tabControl2;
+        private System.Windows.Forms.TabControl tabControl_clientes;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TextBox textBox22;
         private System.Windows.Forms.RichTextBox richTextBox7;
@@ -1949,7 +2156,7 @@
         private System.Windows.Forms.Label label32;
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.PictureBox pictureBox9;
-        private System.Windows.Forms.Button agregarCliente_Btn;
+        private System.Windows.Forms.Button registrarCliente_Btn;
         private System.Windows.Forms.TabPage tabPage9;
         private System.Windows.Forms.TextBox textBox23;
         private System.Windows.Forms.TextBox textBox26;
@@ -1996,7 +2203,21 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.ComboBox comboBox_productos;
+        private System.Windows.Forms.ComboBox comboBox_producto;
+        private System.Windows.Forms.PictureBox pictureBox20;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.TabControl tabControl3;
+        private System.Windows.Forms.TabPage tabPage11;
+        private System.Windows.Forms.RichTextBox richTextBox13;
+        private System.Windows.Forms.PictureBox pictureBox17;
+        private System.Windows.Forms.TabPage tabPage12;
+        private System.Windows.Forms.RichTextBox richTextBox14;
+        private System.Windows.Forms.PictureBox pictureBox18;
+        private System.Windows.Forms.TabPage tabPage13;
+        private System.Windows.Forms.RichTextBox richTextBox15;
+        private System.Windows.Forms.PictureBox pictureBox19;
+        private System.Windows.Forms.ComboBox comboBox_productoEncontrado;
     }
 }
 
